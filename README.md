@@ -24,10 +24,14 @@ cinepulse_india/
 
 ## Setup & Deployment
 
-### 1. Supabase Database
-Run the migrations in order in your Supabase SQL Editor (or `supabase db push`):
-1. `database/migrations/001_initial_schema.sql`
-2. `database/migrations/002_rls_and_expiry.sql`
+### Option A: Zero-Server GitHub-Only Mode (Default for Public Repo)
+No external database server is required:
+1. Add **only** your data-source keys in GitHub **Settings → Secrets and variables → Actions** (`TMDB_API_KEY`, `TMDB_READ_ACCESS_TOKEN`, and optional `LICENSED_FEED_API_KEY`, `LICENSED_FEED_BASE_URL`, `PERMITTED_RSS_URLS`). **Never** commit secrets to the repository.
+2. `.github/workflows/daily_collection.yml` runs daily at `08:30 IST` (`03:00 UTC`), stores state in SQLite on the `data` branch, and exports sanitized JSON (`movies.json`, `drafts.json`, `reports.json`, `reconciled.json`, `sources.json`, `runs.json`, `manifest.json`)—zero credentials or user data are ever exported.
+3. The Flutter Android app reads those public JSON snapshots automatically when `SUPABASE_URL` is omitted, and stores local draft edits, X tokens (in Android Keystore), and published history on the device.
+
+### Option B: Optional Supabase Cloud Mode
+Run `database/migrations/001_initial_schema.sql` and `002_rls_and_expiry.sql` in Supabase, and add `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, and `DATABASE_URL` to GitHub Secrets.
 
 ### 2. Python Backend & Daily Pipeline
 ```bash

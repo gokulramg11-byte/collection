@@ -366,6 +366,39 @@ async def test_partial_source_failure_and_full_pipeline():
 
 
 @pytest.mark.asyncio
+async def test_github_json_export_sanitized():
+    with tempfile.TemporaryDirectory() as tmpdir:
+        tmp_path = Path(tmpdir)
+        export_dir = tmp_path / "export"
+        db_file = tmp_path / "export_test.db"
+        cfg = Settings(
+            database_url=f"sqlite+pysqlite:///{db_file.as_posix()}",
+            tmdb_api_key="super-secret-should-never-appear",
+        )
+        reg = SourceRegistry([])
+        summary = await run_daily_pipeline(
+            target_date=date(2026, 11, 26),
+            trigger_type="MANUAL",
+            settings=cfg,
+            registry=reg,
+            export_dir=str(export_dir),
+        )
+        assert summary["exported"] is not None
+        for fname in [
+            "movies.json",
+            "sources.json",
+            "reports.json",
+            "reconciled.json",
+            "drafts.json",
+            "runs.json",
+            "manifest.json",
+        ]:
+            fpath = export_dir / fname
+            assert fpath.exists()
+            assert "super-secret-should-never-appear" not in fpath.read_text(encoding="utf-8")
+
+
+@pytest.mark.asyncio
 async def test_licensed_and_rss_adapters_with_mock_transport():
     api_transport = httpx.MockTransport(
         lambda req: httpx.Response(

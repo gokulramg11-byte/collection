@@ -18,6 +18,7 @@ from app.collectors.sources.rss_feed import PermittedRssAdapter
 from app.collectors.tmdb import TmdbClient
 from app.config.settings import Settings, get_settings
 from app.database.session import create_db_engine, get_session_factory, session_scope
+from app.export.github_json_exporter import export_github_json
 from app.models.entities import Base, CollectionRun, Source
 from app.post_generation.generator import generate_drafts_for_date
 from app.reconciliation.engine import ingest_report, reconcile_bucket
@@ -49,6 +50,7 @@ async def run_daily_pipeline(
     settings: Settings | None = None,
     registry: SourceRegistry | None = None,
     tmdb_client: TmdbClient | None = None,
+    export_dir: str | None = None,
 ) -> dict:
     """Execute the full collection, reconciliation, draft-generation, and expiry pipeline."""
     cfg = settings or get_settings()
@@ -164,6 +166,10 @@ async def run_daily_pipeline(
         run.drafts_expired = expired
         run.source_results = source_summary
 
+        export_counts = None
+        if export_dir:
+            export_counts = export_github_json(session, export_dir)
+
         return {
             "run_id": str(run.id),
             "status": run.status,
@@ -172,6 +178,7 @@ async def run_daily_pipeline(
             "conflicts_detected": run.conflicts_detected,
             "drafts_generated": run.drafts_generated,
             "drafts_expired": run.drafts_expired,
+            "exported": export_counts,
         }
 
 
@@ -179,11 +186,18 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="CinePulse India Daily Collection & Draft Pipeline")
     parser.add_argument("--date", type=str, default=None, help="Target reporting date (YYYY-MM-DD)")
     parser.add_argument("--trigger", type=str, default="MANUAL", choices=["SCHEDULED", "MANUAL"])
+    parser.add_argument("--export-dir", type=str, default=None, help="Optional directory to export sanitized JSON")
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
     target = date.fromisoformat(args.date) if args.date else None
-    result = asyncio.run(run_daily_pipeline(target_date=target, trigger_type=args.trigger))
+    result = asyncio.run(
+        run_daily_pipeline(
+            target_date=target,
+            trigger_type=args.trigger,
+            export_dir=args.export_dir,
+        )
+    )
     logger.info("Pipeline completed: %s", result)
 
 
