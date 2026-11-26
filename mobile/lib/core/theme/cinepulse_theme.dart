@@ -110,7 +110,7 @@ class CinePulseTheme {
         elevation: 0,
         scrolledUnderElevation: 0,
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: CinePulseColors.darkSurfaceCard,
         elevation: 0,
         margin: EdgeInsets.zero,
@@ -222,7 +222,7 @@ class CinePulseTheme {
         elevation: 0,
         scrolledUnderElevation: 0,
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: CinePulseColors.lightSurfaceCard,
         elevation: 0,
         margin: EdgeInsets.zero,

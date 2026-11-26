@@ -16,9 +16,11 @@ backend/.packages/
 # Flutter / Android
 mobile/.dart_tool/
 mobile/.packages
+mobile/.flutter-plugins-dependencies
 mobile/build/
 mobile/android/.gradle/
 mobile/android/local.properties
+mobile/android/app/src/main/java/
 mobile/*.iml
 *.apk
 *.aab
