@@ -4,9 +4,9 @@
     "code": "manual_official_import",
     "name": "Official Producer / Manual Import",
     "access_method": "MANUAL_IMPORT",
-    "health_status": "UNAVAILABLE",
-    "last_success_at": null,
-    "last_error": "Source not configured or disabled."
+    "health_status": "HEALTHY",
+    "last_success_at": "2026-11-26T19:43:35.404522+00:00",
+    "last_error": null
   },
   {
     "id": "560ec7cb-45d2-4476-b10c-07924c25cd86",
@@ -22,8 +22,8 @@
     "code": "permitted_trade_rss",
     "name": "Permitted Trade RSS",
     "access_method": "PERMITTED_RSS",
-    "health_status": "UNAVAILABLE",
-    "last_success_at": null,
-    "last_error": "Source not configured or disabled."
+    "health_status": "HEALTHY",
+    "last_success_at": "2026-11-26T19:43:35.404539+00:00",
+    "last_error": null
   }
 ]

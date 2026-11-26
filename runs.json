@@ -1,5 +1,17 @@
 [
   {
+    "id": "5955eaac-c4c1-47bd-9bd6-5978fd1a47cd",
+    "trigger_type": "MANUAL",
+    "status": "PARTIAL_SUCCESS",
+    "started_at": "2026-11-26T19:43:35.395882+00:00",
+    "completed_at": "2026-11-26T19:43:35.765754+00:00",
+    "movies_discovered": 8,
+    "reports_collected": 106,
+    "conflicts_detected": 0,
+    "drafts_generated": 63,
+    "error_summary": null
+  },
+  {
     "id": "f2a8ff69-4a9f-4f71-b8b3-64a3e6ec92fa",
     "trigger_type": "MANUAL",
     "status": "FAILED",
