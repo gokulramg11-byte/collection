@@ -1,5 +1,785 @@
 [
   {
+    "id": "e143dd4b-0ae3-4b74-a348-b03d9d948d42",
+    "movie_id": "c27c905e-72f5-4168-96c8-25c5bf1fe93f",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 1,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "10.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPUEl4c0Q2Qkh5TWowdGNHTElycFhvN2JtMzIwSFRRMFhYRy12ZEhwdFBmQ1h6NnF0OTlFRDl4Yzhva0NtSTZoWGtJQUs2dnF1WTY0eVRmdHRpMVp2RGtLcGRaTkZtYkExRGZadlVtUGhldGNlY3Z3VUY3X0J0dXJqLWJtd0l0Mk9xcko1NVhwRXliY0stRjA0SUlmTUVIQUViNDlBRlB5cWJub2hLSXJDN1ZLSDlBWFFRTHlfVndYZ0hpbWtRNi13WGNvWl9xczZ5T2R3cDhKLXpzcDZwNk5mRXl6cnkwMmJ3VmZZ0gHyAUFVX3lxTE5sZlhILXVtSjBKNXplQzlUSXZsdU8xX0djNG1Pdk8xZVZHR2V5cDY4WXNyUXFScFhaQVowNnRmcUVCay1yU2JXZTlkdmZIUHg5R0RTeElXZGhZekxfWFBpVndtMTdpV0VzQW8zSE5fNkFkU1l4XzB3cEdVV191QTFWbGpRbHQ3dktuRTg4YlZzbE5tTE1sZWRNM0l6amhua2JBNEdzMzlXRFljd051OXM4enZxb29BNU90cTVGVEVYZjcwOGFWMG1uZ1hqQTRZbG93RWhrVDlmcmN6cmlPbGhKd0haT0t2YktPMTc0XzFndGhn?oc=5",
+    "original_report_ref": "The Devil Box Office Collection Day 1: Darshan-starrer opens on a strong note, collects Rs 10 cr - The Financial Express",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.528340+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "f4f5b1c6-238b-4418-9179-c95c7eff780c",
+    "movie_id": "0d1869e1-d040-4aea-8fde-15abaf97ecd4",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 1,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "100.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sYlJ0T2VzSWlOVzkzWS1HV0NfVDVmeGxsaXZhQVlNWGdmdGhaLWVOamhwTHh3X1hwTndMQmF0MmhDUGhSd09GNjU3eHludWhZbldPbm1uMEgtNFE4SmgxTTUtUUhjaXkyaDBQZVVVd0tQU1B0bnNxYw?oc=5",
+    "original_report_ref": "Toxic Box Office Day 1 Prediction: \u20b9100 Crore Opening? - Jay-Ho!",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.525285+00:00",
+    "revision_number": 2
+  },
+  {
+    "id": "50785047-1f60-4a91-91b8-1c8dfad7afc4",
+    "movie_id": "ca7a2096-ac68-4dfd-afb3-ee8b5ac094b9",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": 20,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "820.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQ2VZd2VjN3VWUHZ0V3RUaTVpdVBDdkc2T1NjUGs5OFJhQjhOWV9WRmlSSkY4WU1VNlIzQ0Y2ZWF0UE53ZzVpSGpsMFdjVVNLa2dNT3FGekNhSVhZZkw1NmItS1dQTTFxZnVhWjhXUnhRNm9OUEFqTkgxYkNaMkU4cDJPMllGaFFsN003V0dLbFdYOE0tSmJ1U1FJeFpHTkdHSlV3YmxZTHVFVXhZZ1FrY3pON01DNE83RUp5cmVfOTB0djhiNXZtUmgxQnpLWXpiOHIzSXkxaWFSbGN2WVE?oc=5",
+    "original_report_ref": "Jailer 2 Box Office Collection Day 20: Rajinikanth's Film Nears \u20b9820 Cr Worldwide, India Net Crosses \u20b9463 Cr - Filmibeat",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.522918+00:00",
+    "revision_number": 2
+  },
+  {
+    "id": "d7d498c6-580b-495e-9fd4-d91f76242e74",
+    "movie_id": "ca7a2096-ac68-4dfd-afb3-ee8b5ac094b9",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": 16,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "780.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZm41aWlHSE5lRWpEZXZpaWFqYkFUREo2U1BiNkZNX2RBMFcwZ2ZPRmotcVplMmxPX1RNeTdUZ2dWTkpYY1NUSGhDY2I2V0Z5dVhFSnVMRHV1NFJ6bVFRQ25qd2pFRERRb2tTdzVIVkJPVEhnTURpcW1idGFrT0VjQlRic1RtTzVFX2VFdF9qcDlHbkt2bzJkTW1IZjVsYmo1bVlmQ3RTNjZSSGtBNVhiWndlYmpBRDFWVlU4TFV5Nmp1OGdzQ1QyTXJaUXRoMm9Ic0R3WTVqUE1ZRG41SUE?oc=5",
+    "original_report_ref": "Jailer 2 Box Office Collection Day 16: Rajinikanth's Film Nears \u20b9780 Cr Worldwide, India Net Crosses \u20b9435 Cr - Filmibeat",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.519708+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "6f00b1ac-ad98-4fc6-b446-c5d79e78f700",
+    "movie_id": "0d1869e1-d040-4aea-8fde-15abaf97ecd4",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 3,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "165.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZGhYcEpNZmhwbUt0UnVRX3lhejJwX25pOTJhS2tBOFRfMWxCai0wV0JIamoxWEpaQkczU3ZXWGRWN1drbkMxZjNMcl9LdFZVS3FZYzFJTmZ3elBjVWxaN2VmVEpLdDJTSE4xTDlnNTIxTlRsaHlWZktiSnh5M2pzSUxjckt4TDF0d1c5cXl5M2h6VVZwM3NZczJOSWRxYS01UUtoVjdlTWhuaFByUHlwRWxGVjhOMG9FMmdjNlhVMnJqU0liQzlpZjVhN29pNEtrZko0STMzS3RvZVhYVGg2amkteURaTGlGRWpib9IB8gFBVV95cUxQMm12SHNwTmpIS3lKZzNMb3lNR3M5LTZqVkFPODlVdThLczlTY0tlMmRYcEw3aDZwT2JrQ0JRVjhkLWU4a0hER0ltVjFIMVQ0S2J5N0F0UWVSdTVvUVZLMnBlLXgtYXNpaTAzcFFTRkhjal9GVlRoSFBOT3FwZDhDYVBWb0hjWE80R3A1bDJYZnhCWmpybEVLcUZCT3p5bHBONmZBblNiend5NDlWd3AxdUFIVFRfRWJNSFBXRGhiVGY5NUQxWE1CMHEzMmN0T1pYSkFxZTlJMmh3UzBQeW1SU25QZUd0aDA3ZWNsNkpKZTVxUQ?oc=5",
+    "original_report_ref": "Toxic Box Office Collection Day 3: Yash\u2019s film earns Rs 165 crore, crashes after Rs 101 crore opening - ET Now",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.517093+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "5b654954-9afa-413d-9385-f2930f14b2e4",
+    "movie_id": "18fe0fe5-6c4c-4166-8bbf-8cc5380ee940",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "2.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOczlGdVppd1RVYWVmcWtwSjV2bXMyeVd5RFhJRHpWLWpfc2RsbVpLREJnS3UzU3AyTGZpWklEVnFPSmgybG9TOXNIMXZSMWkyVzEtUUs0dE1SZjAxcEVNU0J3cHhCemhVTXFOcnFMbWpUNEEwVUR5aWJfZklGdEktUzc5RTJRUDgzcG5IRUxVUXdRcTgyTVBsQ1p6LVVrWkphbmpnM1dxRC0tNVdST3JWY0FtRXgtNUZBVE5XaTZLMV9KZmlvLVpZTmtXcGpJY201ZHVYdS12TUliSkp3VTRVT210U0YwNUJSNC14V1JUNzJUcEVSdDVzRWcyLVF1QjjSAYQCQVVfeXFMT3J3WWZaUHJ2SzFoWWp4UDhjZkZEU2p4SVhXV1pWMUhnQzJobFQtLS04emx1TURhOFF3M3JmaDVPRnVaS3RnUGNHNExzNDhrZ2M3Sk1YX1BpZnFnWE10Tk9rYlFXaE51QlJWRk5ERXhJTnJQN2tuOGoxaVBrN3RScUl4U2lxeE4wMHZOdHo0NTliRG5ubDE2ekZmdHBfcGpsX3JKV3lWZXBpREpMSHBMeS1ES1EtZWVmZkxRQk1zcDhnR1hUMGNJa3J0d1ZiNTJPd1Z4S1NYYm5nNW01WDJxamtVc0NVbzJWV3VYNF84VlBnTzhCbURYRF8xZnFuaVNpUjhKMHA?oc=5",
+    "original_report_ref": "Premada Oorali: How A Rs 2 Crore Budget Kannada Film Is Rewriting Box Office Success Story \u2013 All You Need To K - Times Now",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.514475+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "9bb22397-f0c4-4f50-baee-ad840ba7e650",
+    "movie_id": "f3e1a492-8885-436d-af39-7abdef09502a",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": 22,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "90.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNQXlTa09LLWdUV2dFRkliWjRqZjVFajF3N1dIY09pOTFNTUZrYW53UVl1ZXF1MEFaSHRDSTY1RzB1aTZNcDlaVmM5ZjVpbFhuLU1fYlYxODJnRThHOVVkN2hTUXNUZzR6dWpLSUFfZUt1SjN6ckgzQUt3d3haR1Nic3UwWnJ2bEthZVozbkJKRXBwaUhXSUF3M0JPdENlQ3BRMF9BVWppQWRxZ1NRTWVtQm9mMzdjaHdoZS1nV1IwNExYTzNKTUNVbml5MnRxX2FjMTY5X0ZwNFFZbko4VGJORzQxVTVvanQ1MERuR3ZaWnhsRHNaNnM1eFFXOUNmYmtJa3dRdVU4MWllSmVtenQ2c2NIN01sTEw2VnNFMXBVTlVreVFw0gGqAkFVX3lxTE8yMVdQbk5VSmxYcEdMYTFFRE9ZUVY2S0kweUswY05VT04xMWlZYVRoTjNZb1NqRUhMNHQ0SEpnRERJWmZyb3NBcmtrOVM5d3N6c3N5UjJBZ0tueXpjVzNIQjFBb0VEYVVLQ2hvS0NjbE1sNjNQY2lRLVR0MzE3c2szV0JRRjdPT2ZTSHVaUEhzQlF4MVBRWlNrZGZTT3JLUVpIeG1EQjV2MjM5aHl3dnJkb0hoOWV2NWdVcWxaelVvRnZlb0Z4QmdVU0t1dlk3VWR0ME0welNGaDExOVNNY0dNQl9YdDkyc2N1WTlaZWs2QWM5RVlZR2k5SzE4MDUzUm1MTG9SLWJ1ZVA3ZFRsdmlJRFdDaUpqOEdBUGRsQU02eXhwV18xSzQzd2c?oc=5",
+    "original_report_ref": "\u2018ARM\u2019 box office collections day 22: Tovino\u2019s film hold strong, collects more than Rs 90 crores worldwide - The Times of India",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.511700+00:00",
+    "revision_number": 2
+  },
+  {
+    "id": "77b44b83-9bdb-46de-9b29-105e31117998",
+    "movie_id": "8b9ab8d2-8f5a-4dc9-98dd-ae1a94634225",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "33.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOcTdKSmk3c3RoTS0tbVh5TU43WW5fZUE1NWdKTFFLczNSSnBuOWdhYzBEYjZMRzlfTUtLMGdDUVdCekY3eHJ0S08zWG0zb2tfQmVEbU5fNDZvbjgwckhBN1ZsX2U5UW93d0ExRU1mcWx2VjF4MmdIMlo0b2FpOTdYMUpjbUx0SWNIWXk0d0VUREpObndReHAxaGZ4LU9Ba3I3TXd4OFVXQUdHV290Y1NGSWh1Zy1ZMkpDb1M3NUt6MzV1NlY0Z21UeEliS3RPUUd2eDFKdzU4OVNqT2ozU05YMlFvcFFqU0pKdFlESEhqTTBZbWVUZWhEek5ReVAxdGlPT0d6R1ZPMVk5U08tNmNXWHB1blpJd9IBmwJBVV95cUxNclFHVXdXUXRWYXpteEVPVld3WF91OGVzUlY4VmxneFo4VHBYNFV6NXBDRm1NbXlQN2t6V3dEeUJpYldCZU4waEFVd21jQ0Fjajd5V25lNUdhSzlZdU4wSlg5TzBFSy1uZzUyVW9ndEhTUnRBZGRqZmN6OTEyeW8wZUJLQ08yRmtaT05IeFlhTG8wcU1Vb2tRRU92UmtjU3RlSWRyVFFJbDZ5UllPVjJUdkVYY2hBbW5DUk1BTWRIS0ZOSHRzWkJVdjJma3dOUE9oeXFJckRZel9CSVVTTnY0RDRrZmQtekFka0EwSFgzUmV1VElwVzZ0aEhwaHN4OVp5UFNoSmNsUUJHdi11U2VSRFBKc0hhNEhINHhZ?oc=5",
+    "original_report_ref": "\u2018Jailer\u2019 Kerala box office collections: Rajinikanth\u2019s film mints more than Rs 33 crores - The Times of India",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.509458+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "ee9b1045-8126-4335-b4aa-f41ae47914a3",
+    "movie_id": "65eff7d0-3e20-44c4-8c22-1b701a298a54",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 7,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "168.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPX1czMkF3QktPeTk4bnd2WHVfbl9LeTA0MVd3OGNuWlBzbTdIeDhlM04tWndDUTZ1U1BaM2NHOG15V01ESGRqSzJQVS13WTQ3ZHlWLVB4YURSTE9QQ215RVpfSW5WVXdsT201a3J2UDNtRm5UZlowZlRSZHFfMXE2OTRkSXVMd01ERTg0eWNhcm9hSzlZS0U5YWN6dkpmcmo3S3lvZnJuMGN0N1dkQzNmd1A1Z3pnZVd4cVNmZlNPWk95N080T0JaZG5VYzZrNllKN19kNmRSZ1p1RlJpTGVmekgydk1vYmYwZEtiZ2FySjM4WExtcUFhWktIWUVpRUFKbnJ2djV0TEtTVzJS0gGSAkFVX3lxTE9ueG5RSGtvVF9ZNnZlWmdWWWVmck9vLWZuLVAzV3prSF9PLS05b0hnd0VGUVRTOGdpQWxJdU00OVJqYkhNcmhRRXJLemlsRFoybFNfbE4tWDd4MmxtWHhTdzNfdjhOZ2htRG92N29kbmV4TXFnSWlyRnBla0VDLXZZN1c1TEZvRmM2dndENXlUT1dOd1lNRF9mTUlkdDB0ZTBBSGY3dnlwV2xQSHA3V1AyZFl1OHkwQUllbXBpWmRyY2tGc1pfUlJoUUhzLXVZSlR1aEhnZE0yTHl2RW1tUXR1bDc4d1p3U2tXZG9vWlZVc1pUSEV6LU42NXVXenlhV2VlOG5SR0JkLU93bVc4SWwxVVE?oc=5",
+    "original_report_ref": "\u2018Amaran\u2019 box office collections day 7: Sivakarthikeyan\u2019s film collects Rs 168 crores - The Times of India",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.506898+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "74b301c4-c40d-4e44-9b0d-952111017292",
+    "movie_id": "55e0dbd0-b66a-4a9f-a27b-2c517e0b1546",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "50.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNS2pnaC0yZjctSTdfbUJReWptcFJMXzUzNGFaSDMyenE5VTdWd2xEdEx5S1QtaFZVWHpIcGVibXlNb1dBSGhHa1NMVkZULVVWX0hwMmxMNWxxMjczUUhPeC1VT1h2eHpaVjJVVmpQSElWbGE0NGszeDdsV3I4YUpBT2otMFVBODM1ZjdVMlRmVkwwNTZBOTZYRXBBZE5ZdG00eWE4R3hCZFF3ZkJ3STJ6QzlCaDBBYm9mS3FRRzNMb0NxZ9IBxwFBVV95cUxPejU3SnhVeFkxZXlZOWN0RkpUVnROeGRjVEVlVnl5cGJiaHZLRV9KZS03UUYtU3hoR0k4V0pnc1JjNXZHdDRISzJ6dTA0RTdBbWZpalgyOWY5eGE5eF9MWDRfMm0tM2lXaWx6d1Zfdi02WXdlaXdJQTJldENkRUIwZHdCXzMtbUVTajczdWQzTnBTTXZVYU1yeDBpWFVqQWpQNEY0TDBCeEM5VHdzeUpQTm9UeXNPOE1BMEdGVTJlbFVFM0xqdkE4?oc=5",
+    "original_report_ref": "Kantara box office collection update: Rishab Shetty film to fly past Rs. 50 cr. mark - OTTPlay",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.498360+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "f24d86ff-bec5-412a-bd5a-a8f611d149ef",
+    "movie_id": "bd407ddc-a31b-49c4-b385-d899fefb83df",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "110.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUEtkVTd3UG90bnRFa2VPUWw0b3F4X29OTF9yUUllQjNMeTdna0FfeGFvWDBKVHc0YUNaRmlWZFJyOWw3Qk1fQjIxLUJtc1R3eUNHaFVLemtsN21vNlFGSzRoQ0lBalBnUlJXb3hsMHdtcXlKREpORFhaRk9zM3MzbHMxaTRuOEctMms2UjU3cTE5d0Z1TExwbXVhck5kNmpCWFVxUC1UY3lOVnZ4dmh4dUtxUDF4OW5TNS15czVKTFdBemxuR20yMzA1SVFiQjZ1Y3hnYWdjcTJFc0Job24yQ1I5LXg0QzY3QkJ0YnlSX1Z6UdIB9wFBVV95cUxPbnZhOWRmQTFqM0RhaXhnNjUxemhHLWwyMFJtaHZMWlRpWElYWFNhSVY3RGRQNzZMQmZZdWVHb1NqRzhVSFJTVzlBRkpyaXltR0NocEZOTkp2dG1PcnRyZGFVUG81bFozdVprdHdPWUpBc2tIS1dFZWMwanRNbVY5MFY2Z042OURCRTBWMW00SHJ5ZVR4Q2t4VGlYaUhJeERnZlA5OVNTaEV1YmRzeVFIQ2t3YXZTeGZjS2xLQnNMT0xUcEh1TzhKTG1UMDVYRHJDd2RNT0Nsams5bGR2cTZ2MkNEUHVfM09ud3BabGtKZEVYdEcwMjhN?oc=5",
+    "original_report_ref": "Peddi Box Office Collections: Ram Charan starrer does well on day two in India, Cume rises to Rs. 110 Cr - Pinkvilla",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.492942+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "d56cf309-1bf7-4ee6-8d60-a313379c27d2",
+    "movie_id": "9e751789-bd3f-4923-a157-032e3747d80c",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "150.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOYWVWSEJ5TW1IMkRhbTBYYjBCYU1lXzNDUVR4NUxqa0pkd2pMaVh4cTVOdmlDa3pkd2swVFdBX1R2NTBiaF8zcVZPOU9ETEx4UXJialhvSlkyczV0N3V5cmM5aFhuSnhxY2FqTnp3ZDNUdXExRnV5WVpXVW5FaHlRakQ3UFBReExjckF4RW05dWZabnRSY3lEdkJucjBLR1BueHZ5c1pWa1o3MDZfelVEWElOVVFpX2dnN25IY0x6UngzMDYySDZZNGNucDVrSlhiSzM1QzJmTzU0RFNxUm51b1hSdkhXTE41ak94V3l5N3BuUW5GNFRNUW1SVlFwMmNKeFVtVWlNQW1WeXA2TzdB0gGUAkFVX3lxTE9ueEI3bDM1YTk5MGpPOVVXMEpDc3Z6bFRPXy1GWnc2RW03U1pjUTVZZ0ZkcW4tS0xLUUtSM3gtYzJncnJBd0RhWHNjeFFkakpZVkdFZzhYQnFCaWdTNWpFTHFlWlMxY2FiM3BPbkNKUml6WWNWd0JaWTc4UFp5a3VsaTJ5Vm9PUmZIWnBVbURYYVJsR2NWbWR5ZmZjR1ZxczNWd0VQVXlWSmtrZE9jNlh3R3J1bnNuRjlINGcwR0pYdFhlbjl3aGJldkRKM0pENl8yZUdTdFhDQ3M5R1RBck1Cd1B0cVFIRi1uUlZDSy1uc2xnempUbTI3M2RuXzdBRy11dENRVG5OQlR6dXBwUk81QmZoZg?oc=5",
+    "original_report_ref": "Irumudi Box Office Collections: Ravi Teja starrer continues its sensational march at the box office, tops Rs. 150 Cr worldwide - Pinkvilla",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.490419+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "089b0029-6e02-40b7-90ac-f50609920af6",
+    "movie_id": "4d1d82b7-0829-4108-9539-d4a9be26dd30",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "5.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMUhFWXhWRk9CYUV3b3U5RVZGdW93WkU1VnNNWWJWSWpuSWN1SmJsZmI0S3pnLWxQMVZwc29iRE5JbTlKd0w5dURKZURDeF9JSy1sOWp2TkxHeFFhMUUteFA0REVUd2lBWFVpVVhmUVVXWVVxbFBwY3lrV2hyWTRETFlaY2o5UG5PalM2MkR30gGWAUFVX3lxTE1RbERsLWtlSDRVSDJTWXJpa0dpQURUWjgyZ1JuMWxoNGRVX2V6bk1aRnJSRG8zaUV6dHVwQWlsaHQ5b3ByR041UXpmdDBfSm5SWFVfcXVBY3JJWjJJUXZSRnRCMWVObkVMeTVVWVJzMDZBLTNocmdZRm1JOGp1MGxtb2ZWZ1JRQmFvSjF1Qlh2Y04tYmkzZw?oc=5",
+    "original_report_ref": "Hanuman Ansh Telugu Box Office: Shockingly Low \u20b95 Cr Weekend, \u20b9500 Cr Dream Now Looks Out of Reach - TrackTollywood",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.488243+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "bae8d0f1-1848-4d4b-9881-8d1a61cb5225",
+    "movie_id": "9e751789-bd3f-4923-a157-032e3747d80c",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_GROSS",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "72.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNWFBUWXNHX0RuRFdFXzhON0g2Z3BKRmpZR195clcyQ1BxNWVaaWxNZXRMOHVtVHo4ZjZwc0RMMUd4U2RpWm4xWjE0alZEMlEwVkpvX1ZUME5qVzItSXZiUC1Qa3p3c051cEZZSEhJbFJIMkRuVExnR1JFMkZqTHBsbTdMYnFSb3BDdkItRzJvT3M4V2hKRWp3MHZJNjJDUE1Hdm9QSTEzWm9VVUZBVVpWbkpkX0tSNkFOMzFRdGdzQWdqZ3dxei00clRXOGZOSFRrRFFVZk01WUlaWDFVS0ZYWXdiZmgyaGh2eERpQXhVc3BXMTZsSDh4amYtbU8za2vSAYQCQVVfeXFMTmo5SzRNYWcwVWFyTlR6SkVzNjFEREE4RGhyLUQ3eXhYcDlBZlczZ1pQaTBScm1yeHY3OE02cUFNbkMyV0pYVDhKN1dfeV9IX2FBY0dfV0VzOHhrbEdBTnB0SDE0Z3J2SGotb1gtYkh5NklUNTBzM0NlYW5Xc0dvbUdZVWxGTi1kc01ub3NRQWVtWnNYOU1CZ211dzRwaEZPaDNmOGlRRjZGd0NQRVNaRnFYcXdCeFRMUEZnWVJaa09FVXFFQndiYk0teDFFbmFHS2hudm5aeXEzMllRQWFvMTN4alFfMXJWUjNKU0RSUmxTWGh3WFRXRTVMMWpOcHJrTDZ4RC0?oc=5",
+    "original_report_ref": "Irumudi Box Office Collections: Ravi Teja starrer has a phenomenal Monday hold in India, Gross Rs. 72 Cr in 4 days - Pinkvilla",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.485722+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "17722a2d-acf3-4b10-9661-af433a5e53c4",
+    "movie_id": "1779c9f7-45f4-41c0-8537-2cb9654b5bcf",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "124.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZGhtdkRxNTNqZ0c0QXdwOE5WbElwTUwyTUhlcWVaZ3YybFRnQUZHSm03bnFMV1RGUjhrTkpWQU5qVnNpTmp1eDFXQUg5eG01aXRfaU1FZURyT05YNWh6WWdYVFZiYzFmOUZPWmJpUXF4cThHU0ItbXc2MnpqUDNlMUV1aXZGRHFMa2l0d2QxTmtaS2stWTVWcThyYlZCU0JycER4ek9aLXRDNWdKcENyaHRCeEQwN3RhckQ2T1lsdw?oc=5",
+    "original_report_ref": "Irumudi Week 1 Box Office: Mass Maharaja's Spiritual-Action Drama Soars to Over \u20b9124 Cr Globally - Sacnilk",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.483461+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "c1fe6ac6-01dd-4f94-8244-27d02dac3245",
+    "movie_id": "4a26daf1-defb-41e1-9aed-afd61dc7b7f6",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": 3,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "5.8000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9qdm1DSDNOaXk4d1Z0SE1VUmY1Z3lXX3Vzbkl1eTRsem5oYnpjNjlOeTJ1VjV4UmhfT21jX2FueVg3RUJUbUhQX0ExQXB0TU9nV3hzWnBJVXhhRFl2bDdZRUFZeDNCb3cx?oc=5",
+    "original_report_ref": "DNK Box Office Collection Day 3: Hits \u20b95.80 Cr Net - Baap of Movies",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.480977+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "8a48a31a-05d4-44b7-97fb-d5d70f4a3c4a",
+    "movie_id": "9e751789-bd3f-4923-a157-032e3747d80c",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "200.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQLVZfd2Z3THNVdHkwbE9WVmNuMEdpOWI5MFZUby0xMXFlM29fdThIdGdMSjVDQWxsT0dxeC1sUkZCa1kxN0czLXg3Q3FXU0Q2bzNjRW5wdU56c1I4NENpMnBadzhkUEpubzdvalQ0bDZVeXEtQzI1c1hkUHcwb29pTFNHcGppYlZuNWZsc0xsS2JVcFRsbkZrWlV2R3BzTHo3UUZHZVNXV19VRzUzaXUtTUpnUElEbjFZZkt4RVZmUm1DV2hzd21FSmNCelU1TEV3QVVRcFNYTklRMEVVclV2U0pBUjZhNEVnRFBENk1lVUhXeTl2WklDekJJcmhNSlHSAYQCQVVfeXFMTlBIX2RCZ1ZUeXBVZUY5aERYWFFUN3JsSTRnMDVQS1JmNE42RTZkaXI0MGZjT0dXeG9LaTZSNUFULUNaQTBZNklmak5FY2p1R0NsQW5uQm1ocnFFUzhLaEdIRVB5eUpiTjJMcm1PMnVEV3Ayc2JoalBrXy1RemNlNXN2ckR1WlFXN3NjNzNyTFlBOVVoTENrMC1EbUVZMVBYSkxPVlhNZEhmc0Z0eXpjRExxTlZyMWJPLTRabXhZZ2xQQWxGMGJ0ZjE3bnJxbEpmOG9VRzFQNXo0OEN5YVhWMUxOR0dCU0VOUnl2ZFNMNWRIb2FBblhrS092SW9iLXIwZkFLUUQ?oc=5",
+    "original_report_ref": "Irumudi Box Office Collections: Ravi Teja starrer delivers a phenomenal 2nd Monday, APTS heads for Rs. 200 Cr plus - Pinkvilla",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.478250+00:00",
+    "revision_number": 2
+  },
+  {
+    "id": "802806f9-8970-4ea0-90db-e54908108938",
+    "movie_id": "9e751789-bd3f-4923-a157-032e3747d80c",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "150.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPVlczMTRWcXBfYkZKRDlzR3R1VW5MUHROamlQeUpXd3B1VW1qS3kzSVVvaUVLU0VNcnBXT0prdjlJZGlWYllwT01rQ3pwS0V1Y0tjLXNhUk00c1FMTEZJbERaYzMyZDdDOWpiSDRmejFVMXA5YlZESjhQVUlSM2txVXVUdnVBMUJuYkdac0gxUmVqLV9YUFpKaWZIUXExa0t5djRPdmJZOE5MemV1MVgwdl9ySm5GT1RyZjVMbkJOTFVsYnZPbV9wRVZtbFFFbm9rYlo1RzhlNnd2XzZETkQyYTdQN21LY2hYcnVGZzh1UGpXbi1P0gH6AUFVX3lxTE9CQUZXMl9PMjZudHdTeW9hbUJfYm5QZC1WRXBWWmptenlESEgzYnVTMi02cXRlZ1RHRlFka1YxaHd6YWk0TXB6eEdDbm5DT1NoWHB2MFA0OFpLRzl1Y3pTUVoyWTNJNGJwMUh1b2tlMXN2X0l6bUQ3YWpZMzZMSWVLWElPWWNmSndpX3JJaVdqY1lKdnhGSEtXRUpMbFhqVHVyNDFCS0liYmRkTGpUN3FaUms5U3RUMHZvNDZibWZFVW9LdnZEaG0wWDV6Z0JQcjJHUE1XTlQtRFhmN0hZZG9icXhhQXRxZktuTGRlY29ScnlkaGVMY2ZaTWc?oc=5",
+    "original_report_ref": "Irumudi Box Office Collections: Ravi Teja starrer has an outstanding 2nd weekend, Tops Rs. 150 Cr in India - Pinkvilla",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.476055+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "645c9150-5013-4648-ba9e-1098655372ba",
+    "movie_id": "695a657b-2ef2-4490-8d74-7a749fe1bffd",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 6,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "150.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNXJfd2ZzaFlvcHZIYjZIOEJuYlhaRmp6amxYSmtzekN2RUZVUFdRZHVyTWdmMUY0UTBmQUo2bTRoNk1vN1FNejZhRGthbWVlR1hlRGJxbnBWSGVCVGFEZXZrZEdrWnpNV1NzUTJtY3pobnhxazhyQkp2QW83RzlYZmNJTU5uREJqT2RfWHM4WUJHWGhQTWJNQjl6YTNQdm9BT0Z4R3ZnYXE0VUFzQWJtUnBDVnZ4ak5xcFZpQmloX2FEQXRVV0xFLUd6bU9XN0xocWpGcdIB2gFBVV95cUxNNzFnbWwwZDlyZXVHVmktX3ZJaWJBZU1aRzZkWlA1TFNhaWZGVklDSllzSUdNX1hRNDFOTVZLcHdEQjdOUS1IR283ZEpyenA3RlJRNEZPUEZEeDZkMEFZYjN2NHd3VVF6VzR5em1OX2pJS1dUTG9ycDZQbmJGUjNQVy02WG1NcVBwYzhBUUFxbzJibnpEZnhUY1FUbktiaDR3dVROeWp0dVVpZ1hFOTdXUGNBSFZXZzdyX0dkM1hwbU91bGVzZlZEUlNwLWY4NjZrNGV0TVpESWZwdw?oc=5",
+    "original_report_ref": "OG box office day 6: Pawan Kalyan film soars to \u20b9150 cr within a week - Business Standard",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.470633+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "deb896dd-c2b3-4dbc-9afa-654908061343",
+    "movie_id": "c5ffec40-ebd0-49ce-ae88-b261b840a19e",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 2,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "1.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOODRWX2llTnZhUHU2UUVaXzI2NERRX3ItZ2NqUVdza3c5ejd1d0FHeGd0dHJqTHl6OXNQUHlfZUxRZFZROGpsYXY4V2d1RGUwdWhaRXRHN0hxU2t1OTVqN2xwZFh0bjRvbE9UamVPZGItbEhFT3RwRjlxUUtLR1h5ZmNXME1EQVVYWG9BNTdqenBxWHFJMXp5LWhqeXF5emtZS0NPV0ZvQ3FkY3ZkTjRCOFpLVHJxV252c2ZHc0F5R2piblRnSVlyVERWNzlYaGFHa3dGd1ZFVFM5bk5OWlpUeFVWcFJZaDhJOC0yNkQ2WnZab1HSAfgBQVVfeXFMTXZDaUFoeEhaanM4VHhiaDZad3BZeU5kQnIyME10UFJ6RGJ3b3B4SE44T0RrS1F4OF96Y0VWQllTcExqUl9TenZHUElwckRFdFYxMFVpUGJNLTZSamhRc1ZwcXhTREhnbUFhWFdseHE4VXlnUGZZR1VXOS1samhhMDBKZlNHb0hGbDRzX2NXY0QzS0NYb1VSbGYyaUg0Um9mVzNrOGktaldEdllfVTFpMXktZGVxS015aHRBUER0VDNpX2VzREZlQXNRajhBSGJOdHZWcUZZZkJDXzNzRWh2QjNQMGUxNjdab2FsaER5dEdsSWJJY2RnTlg?oc=5",
+    "original_report_ref": "Lokah Day 2 Telugu Box Office Collection: Kalyani Priyadarshan's film sees a major jump in occupancy, rakes in Rs 1 crore - OTTPlay",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.468425+00:00",
+    "revision_number": 2
+  },
+  {
+    "id": "cc8fb7b0-46bf-4750-98dc-c467983c05a0",
+    "movie_id": "c5ffec40-ebd0-49ce-ae88-b261b840a19e",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 3,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "2.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOX2NaSlM0WG01OUk0UXB1RkJ2akJPaEZsYml0Z2pnT09rQmZJTTZuWVFJdDkzU091aVVhdVBrTGJZZmxybGJuX3pWZkxiSjJuZUJNN2xfUzJxQWw0dzRhNHkzZEJwVGVzNzNsaEJuSWJwTTdiYlRFbk5yUzhhaUhnLUp0UnJvX1pFbGg3T05IcGE2WU5PMm9EenBUUEx1cTQwV1VPcEpyUzlzcE9oM2xqSzJkaGlrbjFWajdQdDB6QW5iZVphWDB5WUJQRkpWYXBVTFVUb2VXWjBNVE5qY3I4NHFiRFItQdIB6wFBVV95cUxQdElnR05zb2RXRzJ1bTRWWWNFNWJCY0JBMGxKTlNhQnRfdFZfdmFxdHhHb25SYi1lbnNPLVNaVzlJRG9Cek4ybkJ0SndaMTRjVDQyVkhqTEZaWEdKZ3NJY3c4aUxJNjZpd1hRcHlWdVBDTGh2dlN1Vll4UUE0bGtNWC1PNnpaUDNaSnY4b3ZnVzYydENOM1M1TE1wNzVXMUY5Mi1KLVRRLVEwVk9wcVZLTzAzRS05ZDFTZWJURW1nMTRmVU1qNVdmaVVURGN0QUwtU0VSSnBweWVfOFRmX1lONW1acnBiUHJFbXVN?oc=5",
+    "original_report_ref": "Lokah Day 3 Telugu Box Office Collection: Kalyani Priyadarshan's film makes Rs 2 crore, in no mood to slow down - OTTPlay",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.466253+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "b4a03045-6206-4294-acad-1785f66ae06e",
+    "movie_id": "20033c7f-7be3-49d1-98e5-5ca208514e91",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": 2,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "31.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxObFFTeEJ6SDYtYVQ3bnRrNkZxbXdpbF9POC1XUGFvQnc2ZVNfUUY3ZS1MMTdzeXlMRkxOSm1Tcy02WEMyMkJTR29zamRLREpHRXMydmRzSExHNk1STmNhYjNLNzAzZzU2SzB6WmppSFpTcVFrdGp2dWhxVnlDQ2E1SzEwVmltLU52c056QkJfMjNVX2FFRXFfRmZJT2V2YV9QdDdpV2xJVXZSVGNUMDBwUWQwZlUzN1V3YjZBOEZUM0diRVBTVjRlMll0V3pXdWVMUGdaZjFnVDlTSkUweXN4aHNsaGVRYXZHUURpTnVUbnFUYndtcGVrRlNsU2h1WWl1cS1xdzhzZWLSAY8CQVVfeXFMTnFoWDlDLUxNcjRuSTB6akJYeDB1QWQxUXplRjFTT1hPOHdfUUozLVFxaVJwaTFtNUpnSXBzWWVETURLa2QtUGRQQnptLURNbjlkbUJnWUg5dFVCdFNfZFJLV1VSVGZia1FGbWh4WDZHMG9IYXg4aEE4T3ptQUlYNGNNWnB3VWRQM043TGRVTkFrbTV2UzZwSEVoczV4SzN6ZWtpR2ZYeFp2NUZDYmxxXy00YWJreVJPcW1nMl9BYzR4LUo2VzA4bU5pSnNjR0dRSlk4OE9HeHE2ZUVmc19vMGhoYWdLWlo5UUR2amt5SEtXWDlpc3pUZkc2QTA0RTlNMmJoYlFTTEEyLXdxZVBqNA?oc=5",
+    "original_report_ref": "HIT 3 box office collection Day 2: Nani-starrer surpasses HIT 2\u2019s lifetime total in just two days, earns Rs 31 crore - The Indian Express",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.463805+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "453cc070-b630-4cd9-b672-438a337a9c58",
+    "movie_id": "695a657b-2ef2-4490-8d74-7a749fe1bffd",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": null,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "154.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQeEhycWNHWDRiVkE5dmVZS1R3ekhQVGFKcXVhbEVwVF9VMldYR2lDZHQyZVF3cDN4dHFCbFVTeDFUdHZXdmYzOHo4XzFGTDMwNHRZb043X3Q0WGVRYkhJWDNubEROWGJEUTNkZ25DbGxEamM0YWtKLXEyQWhoalFRdnJXZUlQUGNDdld3X0pkeUM4aUQ5OUhVX1ViNmNUc3Y1eWRtRFNWVXdSQWRSZEtXV3Vmak1BV0xSQ1FRYkZmYWtmVk9jaVdZOHlqN1NpcDRxd0pTLU5xcENteEVEVWZNUFJQMEVDaGRpZ19fTGhac3dSV1J2QXdjNjR3R2hlQ3VHb1FKQ1BqUU5lcTNhM3V6N2s3eEhjLWZHdU54b01qNG1QbVIyZDJ1Q2tCMNIBsAJBVV95cUxOS01fcVh0Ni1QUl9rdDgxOU9GVEx5bmhaVVFkWlpTNzA5bVFQcmRYblc4ZmxrN1RmZS0yX0lyN0tUalhJaFR3dTQ1SmpJc2RTS1I2N1U4czk3cjVXRllPc1c2VGUwdmUzbFNScjllWXRaaU9xUTdYU2Y3R3FQVVBkZGVSckR1MFJfRU5jS1NXX1ZNdXl3cTlfZGFBT3JoVVFxb2xlZHgzdGdPWmtwU01xMUh2NFdnazNpQ18yOFhESkNOb2RNdk1iS184UUVsS09DaGd1cmRDMXB0bkM4YUF2V19DbzhEVVN4Z2dOdlZONzVYZHFYSmhxN0s4NHBfY1Z4X2x6dzhuTmpSay1LUW90N0ZXLXEtaWVkdFlHVno0TUhVWUVzcFZ2bUFkVVdpLXpx?oc=5",
+    "original_report_ref": "'OG' box office collection: Pawan Kalyan starrer crosses Rs 150 mark worldwide; collects Rs 154 crore on - The Times of India",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.461343+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "1b3eb555-74ef-4cb6-a8e6-17651d344891",
+    "movie_id": "a3ceff57-8e97-4f48-982c-2c179ab182da",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 5,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "70.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOSjJiX2wxel80Ni1qQ0RodC1hLXg4b3VkZUF6T2VENF9MWG5EUEpZQ1ctV2VOb2FWN1g5aUhpU2k5QkdZTzV5X2g4YTJTMVpTeHV3MURRS1pObG1aRl9jbXkxYmRMb3VMSFNxUXJBOUVDbGZOaHJEZEpGcDFWbDhzNTQ5TGFxZ1FESkNfN2JYendXaHMxODBad0k4SnNtN0NmWkdwd29VU21CbnJnSVpSRnJtZWc2bXpISExNZkZUWGxNc0Q1d3d2NDM1ZDB1d2lobjdFMGcxZGNFMkFabVNfZUp1bGVnUTF6ekUxdDdUUnV4Q1XSAfgBQVVfeXFMUEo3Q3FmblJwWEJfUkFJbEZJaHA4M2dEUDNkYUlhN3JFZV9BQTk2WEJackJOTUFlWWRwUk43VHVjU3VwaUNIQnJBVGoyRW1ObEpPeG55dEFKYWk1WE9SUGdRcmtsMjZ3YkRfdllORlhOYnpNeERQZEpuWHNpVEdkRlNUX1BacFRHNHA0Zk1ael9oZWdBUHJGbzgxMGRmLWRlTFR2ci05ZFBCNlUycWZaRnhXRWJMYlpKZ1hoSWc4aEtmcGgtb0JOSUwzY0x2NldNS3RKMVQzQlQ4ZWtocklEVkJGb05ya1hFV2owU0ROdW54UFF6VEd6amE?oc=5",
+    "original_report_ref": "Akhanda 2 box office Day 5: Rs 70 crore for Balayya, film struggles during weekdays - India Today",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.457452+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "04b5d70b-5297-4ad9-acec-29fc8af78244",
+    "movie_id": "0c193561-fe3f-4f06-a288-aefb266750a0",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 3,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "120.7000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWFFoWFRWWmZOTktYejlDUHlCUXYwcXpBdndqNVJCb1NhQUxGVzctbUhSbWE4RGJ4NURuQ1VZXzhKTHZkU1o3OC1SMUZkUTdtbUJNWHNFWVdadkk5RlZUb1JaWGJkUEtOeTlyTVc5b1pXRUEwU0JqNTVXaDFIVHJEMjF5M1JqekdrR3FrcGFWOUlRYUU3SDNHUGFRWFdhQWxKSlhXM21sLXByZEFWamZKVTJCeExZMExhNXlJNWx3V1NBSDQzcnF2SlZ1MkUyd9IB1AFBVV95cUxQVEptSzVfNWhNWEhQMGY1Q3RVTllNak9FUmllaUVCT1JWN00zWXpsLVl6V3BxcFJ6c1RFZkVJXzVpRDI2SGlCT1NFalZYd0JWYXpPaUZaU084c0xsck8tSnFOOVN5Q1dMNklxdnBaTjJQY2wtSk12VzZqSnZZVWxtbEt4WnR6ZV9CYzh6TVJWdnV2RkVxaUVJa0VMZDV2T19pckFTUWt0SnVYRndzWnRPYmI4VjN0RE1sdVJGOTJrTEJQTFdCcE5PR0sxdERacTJTOVRTcw?oc=5",
+    "original_report_ref": "Karuppu box office collection day 3: With Rs 120.7 cr, Suriya delivers his second highest earner ever - The Indian Express",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.455004+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "3eb7ef2d-0570-4d69-b410-291cdd37d5cd",
+    "movie_id": "d4bd1805-4e18-4667-b6a3-b4121b02979d",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 10,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "12.0100",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQZUpsaUhSYnAwa2RGMUJpMWs2eXFvSDNXNUJnVTBQVXktd3BnMzNXR3FqSVlOMlRvd0hWVkowWkRLSENDZUktaW1EUzZyODRlMUpETWlUT1Nlc2RhS1RQRGFybW4xUmVEZWJJcmFZMUJLOXFXenAxM0Z0ZDA5ZnQ4TGFwVy1ZWVNOX2VwbmdIMHdFZVc5aTV6WmRoN21HOVk0bHhjUlQ3SF96Tk5NYlNJUE9zNXJsNFpfb1ZMTjhuRmRFZWdmWm5JU1BZS1Bfby05TTJTcG5reUdZVENaT3hUcml2SlMwMzlkM191dk9CbllyNklKWEVqWlV4emVJVlZSSXh6ejFyR3dmdXhoNkwzelU4eG9yYmk1MDdpMC1kU3ZKdkdnN1JVWFZxTDViNUxQRThWck1ydVVybDNhOWlrZFQ4cjhyWURRUTlLVUtzUDBVanFQWFRBQWZTbDZsZXBhOFhYTXBEOHhsSmFN0gHyAkFVX3lxTFB5OWlCdm1LLWc4SG5YMXFKcUgzdmQtVWhQQVpZSEdCcGRmZ19KQklHa085UFRNN3YzamxiRXlHejNsaW1BM1k0RDJadjBqWkx1OW5jTG54Z1QxR0RyQzdnNzA4eU5pQ1YtejFuS3loVTFkYVg0aTBHY00xRC1vN0xucU1BT055Z2NpMnNBTW1SN2hDNDVzaklPcFJQUE1WWjU0TGJ2ZXhxMEttUFhmdmttRVdqMjhSVy1BZ2laZ2pCRkhqMm8tdDd5TjZJRTB6TFgybV9Ybm5XQmNHSWo1aFlQTkQ3UHp6ay1oYVFHcElVNnJuLWtpQkdiYlRWQVZ0TURCUzFVd2dZTnc4UGpoZzF4TUNHbGdMMS1GRGdVdHBoUlpmY01PSldicnI2QlZZZWg1VVQyRWJ0NHl1Mnc1MHJicEEzVjlJVm5XUU4tVEVIR1RtY1dqSXcyNmJLTndDdDZZZnJQazIzLS1ubGlyTV9MTWc?oc=5",
+    "original_report_ref": "'Dorothy' box office collection day 10: Karthik Subbaraj and Keerthy Suresh film reaches Rs 12.01 cr worl - The Times of India",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.452526+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "1ee856df-72ac-458d-aaa0-57190e8d7e92",
+    "movie_id": "48402dac-b637-44fa-ab17-693a63f90f97",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 3,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "15.2500",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQNjRkYkJCZjNyNklvNzQtRE1UWTQzWUpsNzBMaDhpbi1iTFJBSmp2TloxdWZNUUcxcnl5bU9KZ2pDVHdUak1VV2lQSHozSnlwUmt0akNYZlc1ajg3eDNUY2RTYTJ6YU5qNjNLbzNPQ2FzdmhaQ1Z3dlliM19IRW54Y1RkS19td1daMEVaWTB6U3FkS1d6STZ3NGFsb0VCdldVNmVTbU9Xam03bEpoemttQ0UzYkZPd2wzSXczSVRQQS1NMDllckJmR1BPUWZRSWpQU3pwc3gwUmFub2dlVHhSODFSeExXNVdUbmJjeDFXQ3lYWkFFRW5zUjJ4cEh2UHBrMnFQcml2V2l0dVZ5MGFnZURzOXdzNUZWQzM4TC1kdVhzeHN4OFI0U2doOWc4SEw4ak9fb0R2OHEzSktXa19jRWZaWXZOVnMxeDAzYzFR0gHTAkFVX3lxTFA0Q19NcEZyQjJqVE04RTFfc2ZUc3RJNXdfUkNnY0FhZUhURkJIajhDT1N5bkhGX3BfLU1ia1BibTQ1d2FYdS02QTcyNmtzT2VBZlFMX0kxZmMzSkVqaUw0ZGJNMW10bU1TNFEwLTBSQUVJeUhTZkNFNHRtUl8yZTZqREVYT3ZIYkNFV3dUUVZ1VjNmRHMwal9zN3QxR2RIUWxIUFZCXzdVajlhNTQ2QlVFT0RCYWFHbFRRdWJzcWF5cGFEQ3JZZTROLXZZWGZWZkNPRE5tLVZnamxTVFlkaHc3WUM4Mzg0ZjNoLXhSNUVwYV9pVUlvREpWc2E0VW1sN3lNdTNVQjlGdDNydVlRNGhsb29DWDhYcndRazNwT1pjNXpOY3BaMGRwWEV0NlZmWDJLX1RfUDhYc21vNk1fMjdXWkxUalNESDhMZkU5MG5KZzM2dw?oc=5",
+    "original_report_ref": "'The Paradise' box office collection day 3: Nani and Kayadu Lohar film earns Rs 15.25 cr; records 2.3% gr - The Times of India",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.449895+00:00",
+    "revision_number": 2
+  },
+  {
+    "id": "3bf0fbc8-865a-4c64-bbcd-735307bd3868",
+    "movie_id": "48402dac-b637-44fa-ab17-693a63f90f97",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "77.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNbU5FTEpMd0o5em5Ld0U2TEVOV2tUdU5pVUE0aWEzekFZYnI1c3BBak1wUWd5QVlIcHVqMHI5anJaLVdyWUtVdW9mZ1o0ZGhlS1lLRzczRkFKNTcxdXpDR0dTbHB3QnZPRExUa2p0S2Fnd25KemFmUWlyMzY0cW94LS1yLU1nc0ZnSDlvTG5wVnZqbVNVbUFhZ052TlpxRDZMV3hrMno0aUFubVByTERPaU5wTGk2cWp3d2xxZ0NQYVdyY202bEw0emJ4UWNZTWZGSUNkN3R0VUE1amNvcE1uR1hVSF9yWm9yY0ZCaDVkVHVCVkpvM1JIRFkwYnN2QmkzVjRvREk1S0tGYnlycEHSAZQCQVVfeXFMT0F3S09YanFmMDdvNWhFaW8taDZaUmVPY01iRjY2NkRlOE1uWm9ic0ZMS3A4Uk5jUV80eGc5c25vSkttMmUwamtZTXEzYU1icFVFQmZvNmx1Y1pBODU0dXpOSm5DeEEwQmpqSlY3c2I1SFJvZ3NNLVQ0dXVYZnBaNHpXSjJiUy1qY3VPbDBtLV84OUxmT1N2dkpSVEVTRFh0Y2NaT0IxdVkzLXU2U25tWURKbkV4cnluV0syMDIwbDBoOFlqekFoZm1NNXdZRWdOQmNXcmFWalpWVFVJZXkyd3ZmZ1I0Ui0yVW5jb0QyMk92TXNueHZXZnY0aTVqckl1YlVYTzVrYVJtRzY5dFlhRjA5SmR6?oc=5",
+    "original_report_ref": "The Paradise box office: Nani\u2019s biggest opener can\u2019t surpass Prabhas\u2019 Raja Saab, earns Rs 77 cr - The Indian Express",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.447756+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "5d6da365-7d24-481c-a6e7-2602fd5d3dc4",
+    "movie_id": "1e892b1d-1687-49f5-b4fe-02c1fb80f4e5",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": 19,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "1700.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQbGJHZEVlYzdMbHNTOExPQmJxd2xVODJGaFUwVGdBMTRSblhkbWpWVXNaTVcyaVFkS3B1WWxxWW1Kb3dOVTM2N2VYRjQ3YkEtSXZFQ0J1Uy02dktLS0k3d1lMckVoV045VF9wTHZMT3NUYnMzUmwxVlFsYUtJMjY0RHRRdEtkVWFXd2xZTlZDTlhHVzZDZ09IOFFjbGNPTDZZWmU3RjRwUHBVRzJuWWRVUkRteERfUFJqV1g5Q3JyNTRVdGFVR1lFdHZTdkRKTFZuQ0t4RlZISWJ3TGVQZEMzRzFxempLNGZhN05jbGFaclRrZkFJRTM2QmVsc3BMUE5xQlg4aUxxeWs?oc=5",
+    "original_report_ref": "Ramayana Box Office Collection Day 19: Film's Total Monday Collections Drop 64.3% After Sunday, Worldwide Gross Tops Rs 1,700 Crore - NDTV Profit",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.425526+00:00",
+    "revision_number": 11
+  },
+  {
+    "id": "af3d3331-0504-4ca2-9db0-6fb5ec916245",
+    "movie_id": "1e892b1d-1687-49f5-b4fe-02c1fb80f4e5",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 20,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "1000.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONnUyaWdfNVVLY0RoeWZzWUVOaVJjbFVyc2NDNk5QVy1mMktuTnA5UGY2SlVFT1pTRC1lRDB1a0txSzlmQk5QXzA3VHFoWkVEMTdVRktDU3dMQUtXcXA1SVVQa3RVOFRHMzNneHJ1MW45R2thMGg5RWRoTzJpQ053d1ItZll1VUdIM3dFUkFCRnpkeDZLamJwVExYZl81U2d3bDZZZ1ZKSEhhQ2E4NDZMSm51Z0JLYTIwRll4WjZBakNqN1FDaXVIZ0tnenA0YzZMWnllNHVzOGVoZ9IB3wFBVV95cUxNZ3ZCRkwyMDFGcWF6eUdfTzhlR3VSVzRBZ2o0NTYtTFpaazJ0VENvRXhfNnZrTFRMNVYyRERJT0FNS2dZMmNNWWx6WGdfT192Q1BwMmQ4ODNJcGV5V0N4Z0FGMkl4OW52RmlJSTJaX2xOZExzX3pYejFKY1dHYk9DdUtjMEpOSkVpMlRpdGVEb0N0MHp0QVRtaU9QdW44X2NZcHpySDYzeDZzSnFRVm00V1NQa0Q0SWlnRlctUlBteTNRbG92TXMyOXFjNGtheHZiZjZ6NUFQN0M2ekFDSE1r?oc=5",
+    "original_report_ref": "Ramayana Box Office Collection Day 20: Can Rs 99 Ticket Offer Help The Film Cross Rs 1000 Crore In India? - ETV Bharat",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.421974+00:00",
+    "revision_number": 21
+  },
+  {
+    "id": "c242c861-bfcf-4d9f-bd9a-cfc77dc8d8b5",
+    "movie_id": "1e892b1d-1687-49f5-b4fe-02c1fb80f4e5",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": 21,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "1743.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbTlabU1DZXlsQklOalZ4cGlNT2tMZEtmakpTY2owWktuZEs1TlpjaElxNHpNWnYwNVYwTGhBNmVjUHVWRExlTlI3UG4xZzFJdE9zZ3lWZlRXQ1JnUXBKNTgtdFM3alBlVHZyZHF5NE1WM09iNjlfS2dhNmlockN1WFY3RG00YTZQNi0wckJkVzlHWElKU09KdGNlRndJRTUzTjFoQkF2UTAwRjExZGpLZ3UydjM1M1g1SjY5WGtrVV94RlFialBvc2p5MkhBcGN2WkNUR2ZQZEV4Z9IB3wFBVV95cUxNRkFkZG5iNlBsWlRLXzl1eE93M0R4aFhyUkZ5SF9Va2hiVTFEWUxIQktxM29zTDhKbnp3bVRmQzRnRi02NXRZWWY2bEtvQVZKSjY4NV90a2x4T3k3V3lVemllS3NoOGN2cWtIa0dNcnZKX09wQ1JLQmJIWUJzME15ZElWUU0yR0xUX1ZIRTJVQ1ZDa0JRM3l1YVVlbHAzN3dwOThQUmlxNnBHNWFoX21mUkVzMFhMcV9vUWphZ0JpQlktQmZiRG8yWk1ROV81QmhwanlTdU1hWjJaQWRaX1dz?oc=5",
+    "original_report_ref": "Ramayana Box Office Day 21: Ranbir-Yash Starrer Beats Pushpa 2's Worldwide Collection, Collects Over Rs 1743 Cr - ETV Bharat",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.419507+00:00",
+    "revision_number": 5
+  },
+  {
+    "id": "a6d9109d-499b-4738-acf3-e443b60b3758",
+    "movie_id": "1e892b1d-1687-49f5-b4fe-02c1fb80f4e5",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": null,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "1750.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQdFJPYWItanplRmpVcXdoVnU1N0hab1VZRFkwTXlnRWE4VTN6dnVBYllOeUJSdkcwZ01GTXFISEQ5S01ZUzJmMWd0X0J3WUhNWGd1TDllOG1RSHljazVrOV94NUI3X0tHem85NE9lcGZQLWo4YkhJQW5FdDB2WHk4dmJBWFJ3NWx4ZWpySVB0MUx0aEV0VXM4M2M5cXFqVnNDVTU4VTlRam03cUpaUlFKWjQzcWw1ZldHbUZBZk5aNlhZUDZBYXZjZ1dNdENkclBIWDF2cXdva3NNS1dvTWRxSTBkdVFQaWtCSlBLMDNKR1lsRUZQN1UyZEJPejE5cXUxSXlpRXF2bVRORS1aRXhzSWxtODkyLUt5UzFfdXB1YW5fcDZtU1pKX1g2bUHSAbICQVVfeXFMUDlGUUF1cnRWS0pZdGtjVk9ESi1ITEVlOHJDUGU3LU9QcU9sOXFfcFdoWEJITllVVV9FQ0ZvUWpYS2hacUhacjE4eGFiRXByMEFXNkdLWjVWX3RVanNvZk83cEZheFpXQWlUWEFDeXRuYWk4dWJlTHZkMkRjSnRpSlBwLWNTekJGTXljcEV4N3BWWWJBZV9JcXJrOFctZlNHYURyWloxVlQ5SmF4TUctMmdrMWkyUDVrb3M2MlBfUDlKcmE0eFRjSnZKWkIzY2JIMmpBTUkwRzZyLTdBb2xaQ0ZuOXpSdk1FeThsRi1CQXk4Y1hTcmk2TVE0ZlBMT1FJS3dKc1RyM1BTYzJXclRhbTdZQmlHQWw5U19BX2swX3ZFdWx1RFVLWVVfMm12YS05Q2F3?oc=5",
+    "original_report_ref": "Ramayana worldwide box office collection: Ranbir Kapoor, Yash film beats Pushpa 2\u2019s lifetime haul in 3 weeks, crosses \u20b91750 crore | Bollywood - Hindustan Times",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.417309+00:00",
+    "revision_number": 10
+  },
+  {
+    "id": "3b4dfeed-641a-45b7-953a-58395ebdedb2",
+    "movie_id": "1e892b1d-1687-49f5-b4fe-02c1fb80f4e5",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 22,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "990.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOeWtfalNjR0plS2dQV0JRbmdJM3BISVY5VHRRQ294eFdfaE5DbTl0ZGNYd1N3RHRvM3RVeEZhQnlZSTlVUVRSMmtUbUtSMUw3amhjOFQxQUc5RGV0amVmQmx1ZlpHVnJuY21zUUktRG41R2pmbnFaazhqYVE3eTBZRFZua0V3RUZUQUF1MnFWV2tqU2RwQThXVjA5ZzJWV2RYQkdnMEdWZ01ndkhWTnVkbWczQXFTVHNlTTJDOTNqZnFKaW03aURYTG15Z3BYUUVOQ0RUNFctWkJ3ekZpcDBCRS1zNFFrREh6a0ZzbVE0U1pLVFBlOE9rWTlOUjhrV3l4YlFQU0xrOU05alRkcEHSAZMCQVVfeXFMTmxBZFZvYThjaE42SkVhd0dPOTZXVGl1b3lxWjdOWkp0U2h2R19kdlpjT2FXMzNQWlUwNlJqVVEyQWtvYVItMVlOZFViYTBabHJjcTJQS0hISHlHWlFOMXRZRHFWQld1WGIxNWpNQ0JXbU1OVmdwRU9rSkVySWdTWl9fSVlNMUhDMVNMSTFqSDkyVGRubHNiQnNLYmtINUpFZDRQTGN2WnptM1otZFhKY2FmWTE0eFRYaVdualUySVRMTFIyZ1pHVEMzT1B1Ry1OUVVBVG5GZDhVWWNHM25WUEVndnhZSTc5LTQ0TE9IOXM3VDFpN0Fwa1FhUjlBY3kwYzB2bE4yQmkybEJ2N0RieTJxR1E?oc=5",
+    "original_report_ref": "Ramayana box office collection day 22: Ranbir Kapoor and Yash film stays steady, manages to cross \u20b9990 crore | Bollywood - Hindustan Times",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.415028+00:00",
+    "revision_number": 20
+  },
+  {
+    "id": "72c2c76d-7f8e-4328-a672-86bf1944d2a5",
+    "movie_id": "8be25d7b-568d-42d8-a64c-bad352773279",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 4,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "55.9000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQUjFvSGRma1FwYWxUWVRkNEpTeVVWSjBENmRaekU2M0xveUctM2Zyd0dvWGdkVXZaM3E1cmg3MzRFRy1FZWJuRFFJZm84MEplUWdUSEdmQlFfdXZKMTdjazVuN045U1VyT2FvV0tDX1Y4dmdNS2I3bXF4R3hPQUkwMEpUTDVKMXNyakhHMVA3WHRwa1ZoVjRBVFhqNmRiM3Q2VXY0U2lkeG9Sdmx6UFNMLU5uSE9sbUIxNmJLRk1HMm94eDU0Qm9kdGMyYnVWLWNaVjlha0g1T252NjZPMF9LejVTbmVhOWk3LUttZl9kbmpZcnBBU05ibWczM09BRGFsZVdfdGJxQkx0UDhldVFYR2ZB0gGXAkFVX3lxTFBiRXpteGMyWlc2MVVfeUI0WDR0OG5PTC1GcFJnTDc4OGlOWU5zSHZtNkpJbmFTblF4WDA5Z2RjMm9vd0dQem9Hc1V5eVFpd2RORjZoR3hSQVQ0ZFREUVdwaW9UU2dkNWp6UGtzT1ZKRW8xRUtZLVlBVmYzenhjZzR4TG1jQmQtZWphd1FtVm5fTUhna3QzVzVuMEUxWnZCWUg1RlRWbDJXaUV2NzYyQk9RRHJsY1B6dkFVS0hzazA3VnR4TDFVLUV5aXIzWi04c2h4TWN3UW5HdmhBbkZCT1FnNVYzVUpuNWlUei1GUmlHb2ttNGFsQjlCTUQxTHlZYXpWUDIzNnFubDhRSlNVU25IVHhMVEVJRQ?oc=5",
+    "original_report_ref": "OM: Operation Mole Box Office Collection Day 4: Dhanush's action thriller earns Rs 55.9 cr net,... - Moneycontrol.com",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.411520+00:00",
+    "revision_number": 3
+  },
+  {
+    "id": "170ae69c-5fab-4235-b1c6-e2676df14356",
+    "movie_id": "8be25d7b-568d-42d8-a64c-bad352773279",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": 6,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "75.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMm1pTkI0MklObXlTcVA1ZlNCRXdRdU16cTZEOHNiQTdNN0FhU1Znb0lrX0trcUxnR0M5akM4eGY3RDItVWtXd1FCSjJlRXM5YVRDTzg0NnNCRWRUNUJxSkM4WEtBbWxpR19rajA2bzA2ZWlBaGtNalI2bHRNaXAycEdneFN4NEFtdUh6SkVpZHVTWkk2ZFl5ZG43QllJVzkwLUHSAacBQVVfeXFMT1FXelNPRURYclh5Y2VEdFQ5cHpyeTJvOG55ZGRvbXBzQzFQUEREWThjY3lnd1VzcmI2LXFLTHpfdUstaFRiTlVLVW9PdUpNOEk5OFVZaERoWUwwdC1xNlJUclQ5TU9RRk91MFBEWjlvV29kYWpDaFJ1MlpkMkFZZFVUTDUwWlRZNlNVdkF5bHhGbEw4Y25iUEpDeVJCUVhvVVlJMzJmdms?oc=5",
+    "original_report_ref": "'O.M: Operation Mole' Day 6 Box Office Collection: Mammootty-Dhanush flick crosses \u20b975 crore in India gross haul despite slump - The Week",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.409390+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "030a0ccb-4d53-4aaa-aaed-dc8fd17ad73e",
+    "movie_id": "1e892b1d-1687-49f5-b4fe-02c1fb80f4e5",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 21,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "1000.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYjQ0M0k0cDN2SlY5T0lsdHpqb0hYaGl5YnZ0Tkl0UFU3bmxxdExSZ210d3MtQzZwY0dPT0dSUXJ0RlBEb3hrNEpGMU5WbWxpUjZnMW5tLTRxSDNnTk43TFlxV0d4RmloWi10QjEteGhsR1M5QWxFdUtCcWQyaGc1XzBORXVoUkUxalVCajlaSlhJNU9UZHVtOWNwVDk3TXV6UzNndmFrTkJZbHZDSXJ1a0JHVVB3V3pVeE530gHAAUFVX3lxTE9rTE9maVBhalpqYVZUNzlYUzlmXzJuRjBJWFNVdHFDYUpCUXAzLWduQy1vOGNtOVkwaGs4UTJ4SGcxUjY5aUlUX2JFMlVXY0JocmREUE1Jc0lDQW5DcmlYMy11WXhyYXFFVFNiR0o1cUNiWlBYMjlkOE5pLVI3R2JDcTNvSGxVdHlTNWV0T00wUjdlVFVaZzVTOXI0MkFOMTVZLXVnWkpFWktRWVZoZkViTUdUajNONXJvRVVCU3pCeA?oc=5",
+    "original_report_ref": "'Ramayana' Day 21 Box Office Collection: Wait for \u20b91,000 crore net could be longer than expected as daily domestic earnings dwindle - The Week",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.407340+00:00",
+    "revision_number": 19
+  },
+  {
+    "id": "8fb5fd02-5dca-477d-8e2e-fb8c82bdbc2d",
+    "movie_id": "9e7ea347-4675-475b-9018-5019f31d42a0",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "OVERSEAS_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": 20,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "1700.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWXhOUUw2OW9iYzlYM0JlbzJqd1dibjdqM2lUdW9xeHZjSTJ2Y3l1akhnMDJxVFEwQllnOGRzSXZ2XzdMSlV3UUctVHhRVGhWcExxUmNqVDFQYVRaaU5MVlFXdjRIYThINXRYRE9qVE4xanpld0tFQmhOR3J2OVkyRm1iY0w1YmNGeWJja1Z6U3NqcVdfWGRqbUhEVVUtVXNxVTJIMWI1c215OFIxeGlsT3R4MFVRdUR3UzBnTV81ZU40UmFMTXZWWGJXRnVCTHJOVDFhdnJXTkVVYWQtRU5fcjNQbGhWMGtITXh6OElKTdIB9AFBVV95cUxPSlNXTk5HSXQyY0NXaWZEeGpZLUFjbW1SMDJxd01SWFhWNnJwMnlUbU43dlBfbEpXMXBPZVNhX08weGs3M19JdkRlcXlaRmVjcGhjdFN3eUJtbU83R1hpSklEakJRdnFfM1d5ZjFkbzI0bnRUOFBQcFQ1Vzc3Z3BGR1hPejM5dXhyX1dNVVp3ZmdwVkRtMzFnNVZxVVdYNHNkRjJOdHNZT3ZoeUNfYW5zVzAwbW5OUnNhVDlUSmxEaHVaU09PNE01VlROT2ltdVkzMlZZTWk1RDhud3c4LUx0TUhlZS1KMWMybWFGNUVGZ05zUzJO?oc=5",
+    "original_report_ref": "Ramayana overseas box office collection Day 20: Ranbir Kapoor starrer crosses Rs 1,700 cr mark - Moneycontrol.com",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.404954+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "d413a18e-f025-43c6-b934-af59aaf9b3b8",
+    "movie_id": "8be25d7b-568d-42d8-a64c-bad352773279",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 6,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "100.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPVXNrbjV0b3lDRHU0eVVxbUlKWnYwRVZxTnhXMzU4RUxWc3RlQWFscUJsRlpqSEFHazcwc2JRemtyeE01ZzBHSy1MMEhNRlp2QUktSml5RThLSEtWRTBfNXU3S1FSbGJheUNZYW9xNE03cWJMMGxNRTN5cVdEX2ZIODdTTThYYVEzM0l0aUVyQlktUk5mOUl3YXNJLXppVHdHNG4xekk3VkEwM08zRTRVWThCd1dja2h2a3JlRDZUR0haWVhuVG9pTVN5YTAyeTdkVEZETGRwZElnbjdaUVZtR2F1NElPYy1yVHB4MzczSEtVRGJGV3ZYa3JZVEdUNmlEMi1oaVY1RkHSAY4CQVVfeXFMTkpxX3RqNUgwTEhRVEdDQW9NSmZIY0gwZzliOUFjRm5mcDhKd002dndfVlhaWTJnODAxMXprU2hueV9mOGl0VXhjTGF0MFdoajFkekJGaEhtTVU2MzZvekpRQmJDYXRzR1paRkN2WU92dmhHUWU0MmpQYnJWRTNSTGdrMUk5eW04clRWX2xWOTdCaWw4anp4cENXNTQ5LXNhaE9zNDVzQ0xRU2JfYVdSaFhYa2V1SjdXWklrbW52QkVfbVZJNVI3ZVhfeHBLY21uMXNQNVVFTHJqSmFHQWxyS2cxR0JPZEhNSVpmNFZvUW94WVFrbkR5SU5DNGN6OW9fUWlYS0hLbksyWnNWSVVn?oc=5",
+    "original_report_ref": "'O.M: Operation Mole' box office collection: Day 6 starts bright after Tamil blockbuster becomes Mammootty's first \u20b9100 crore hit - The Week",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.401815+00:00",
+    "revision_number": 2
+  },
+  {
+    "id": "e52ba3e8-0f05-44f3-82fc-5db14414baac",
+    "movie_id": "1e892b1d-1687-49f5-b4fe-02c1fb80f4e5",
+    "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "sources": {
+      "name": "Permitted Trade RSS"
+    },
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": 22,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "990.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNalQ4NGtBc3BHbjdOMWVFZkNmQUhhcTNNNDM5ZG5QMW9GckczbjR5TEMxLWpYWUlyWkZ6dm43VFJ1YXNoVlIxRENVNUJxTGpnS2ZFX1pPMXZ2Wmh3eTN6YTdLWDhCQ0NuSXdpY1VkNHVGbnZIUHRBTHk1YWtYbnJQeFNKRkJlbXBmZDNacmtfVkZHWEtDOC12ZnJ5cW5OZmotc0Nzb2JoQkY5dHNaMm9SZy16T3lPRmFVTFpUYlowcTZOTE1RYnc3RWRXb3NKNDNlZDc4N21CY3FBZXVndmg1QV9jWTdyb3Y0Smo3cW9PLXjSAf4BQVVfeXFMUHNBaVVRemdLMjNvclFyaFhCeU5kbm4yRldtMzBVaFdlRmpJZ1dfLUpoM2FKQTN6Y3VrNEJuc202OWNiSEhoaDZuT0N3eWRfRlNfY1RNZVVvRjA5bDhMUDZHM3R5Uk94aGpvU1g5c1lnZzYySHdDS1dKcWNGQXJZMjgyYl9iZXMwbmhxa29ndEdEQlM3SWZFZzdBSFFoSXNuUkVlYWVUYUY5WjgyYWVzU0FZOWJQZVg1NHItQUJSRHJoZkhBd1BxTG9fS2xFTkFldW91T1loaXZjdEZXUkRLR2dfLUd3UVJ5LUlxT0pCMjBJV21fcXVBaHA0blpFR3c?oc=5",
+    "original_report_ref": "Ramayana Box Office Collection Day 22: Ranbir Kapoor Starrer Nears \u20b9990 Crore in India, Worldwide Gross Reaches \u20b91,755 Crore - digital terminal",
+    "published_at": null,
+    "retrieved_at": "2026-11-26T19:46:15.399332+00:00",
+    "revision_number": 4
+  },
+  {
     "id": "2580bea9-b24f-4178-aa09-8f3ff2bb5bbc",
     "movie_id": "1e892b1d-1687-49f5-b4fe-02c1fb80f4e5",
     "source_id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",

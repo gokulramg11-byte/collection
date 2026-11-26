@@ -112,6 +112,272 @@
     "is_monitored": true
   },
   {
+    "id": "c27c905e-72f5-4168-96c8-25c5bf1fe93f",
+    "tmdb_id": null,
+    "title": "The Devil",
+    "original_title": null,
+    "primary_language": "Kannada",
+    "languages": [
+      "Kannada"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "ca7a2096-ac68-4dfd-afb3-ee8b5ac094b9",
+    "tmdb_id": null,
+    "title": "Jailer 2",
+    "original_title": null,
+    "primary_language": "Kannada",
+    "languages": [
+      "Kannada"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "0d1869e1-d040-4aea-8fde-15abaf97ecd4",
+    "tmdb_id": null,
+    "title": "Toxic",
+    "original_title": null,
+    "primary_language": "Kannada",
+    "languages": [
+      "Kannada"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "18fe0fe5-6c4c-4166-8bbf-8cc5380ee940",
+    "tmdb_id": null,
+    "title": "Premada Oorali: How A Rs 2 Crore Budget Kannada Film Is Rewriting",
+    "original_title": null,
+    "primary_language": "Kannada",
+    "languages": [
+      "Kannada"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "8b9ab8d2-8f5a-4dc9-98dd-ae1a94634225",
+    "tmdb_id": null,
+    "title": "\u2018Jailer\u2019 Kerala",
+    "original_title": null,
+    "primary_language": "Kannada",
+    "languages": [
+      "Kannada"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "65eff7d0-3e20-44c4-8c22-1b701a298a54",
+    "tmdb_id": null,
+    "title": "\u2018Amaran\u2019",
+    "original_title": null,
+    "primary_language": "Kannada",
+    "languages": [
+      "Kannada"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "55e0dbd0-b66a-4a9f-a27b-2c517e0b1546",
+    "tmdb_id": null,
+    "title": "Kantara",
+    "original_title": null,
+    "primary_language": "Kannada",
+    "languages": [
+      "Kannada"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "bd407ddc-a31b-49c4-b385-d899fefb83df",
+    "tmdb_id": null,
+    "title": "Peddi",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "4d1d82b7-0829-4108-9539-d4a9be26dd30",
+    "tmdb_id": null,
+    "title": "Hanuman Ansh Telugu",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "1779c9f7-45f4-41c0-8537-2cb9654b5bcf",
+    "tmdb_id": null,
+    "title": "Irumudi Week 1",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "4a26daf1-defb-41e1-9aed-afd61dc7b7f6",
+    "tmdb_id": null,
+    "title": "DNK",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "9e751789-bd3f-4923-a157-032e3747d80c",
+    "tmdb_id": null,
+    "title": "Irumudi",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "c5ffec40-ebd0-49ce-ae88-b261b840a19e",
+    "tmdb_id": null,
+    "title": "Lokah",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "20033c7f-7be3-49d1-98e5-5ca208514e91",
+    "tmdb_id": null,
+    "title": "HIT 3",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "695a657b-2ef2-4490-8d74-7a749fe1bffd",
+    "tmdb_id": null,
+    "title": "'OG'",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "a3ceff57-8e97-4f48-982c-2c179ab182da",
+    "tmdb_id": null,
+    "title": "Akhanda 2",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "0c193561-fe3f-4f06-a288-aefb266750a0",
+    "tmdb_id": null,
+    "title": "Karuppu",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "d4bd1805-4e18-4667-b6a3-b4121b02979d",
+    "tmdb_id": null,
+    "title": "'Dorothy'",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "48402dac-b637-44fa-ab17-693a63f90f97",
+    "tmdb_id": null,
+    "title": "The Paradise",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
     "id": "1e9f51d7-009e-43de-85de-48d103430f68",
     "tmdb_id": null,
     "title": "'Ramayana' Crosses \u20b9880 Crore In Just 16 Days, Sets Hindi",
