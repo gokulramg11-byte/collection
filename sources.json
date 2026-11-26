@@ -1,0 +1,29 @@
+[
+  {
+    "id": "35fdb9d9-3be1-4499-bf24-f4dc228acc0f",
+    "code": "manual_official_import",
+    "name": "Official Producer / Manual Import",
+    "access_method": "MANUAL_IMPORT",
+    "health_status": "UNAVAILABLE",
+    "last_success_at": null,
+    "last_error": "Source not configured or disabled."
+  },
+  {
+    "id": "560ec7cb-45d2-4476-b10c-07924c25cd86",
+    "code": "licensed_boxoffice_api",
+    "name": "Licensed Box-Office Feed",
+    "access_method": "LICENSED_FEED",
+    "health_status": "UNAVAILABLE",
+    "last_success_at": null,
+    "last_error": "Source not configured or disabled."
+  },
+  {
+    "id": "c0cc5918-1d13-4890-9f23-37e2e90e22a7",
+    "code": "permitted_trade_rss",
+    "name": "Permitted Trade RSS",
+    "access_method": "PERMITTED_RSS",
+    "health_status": "UNAVAILABLE",
+    "last_success_at": null,
+    "last_error": "Source not configured or disabled."
+  }
+]

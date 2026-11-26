@@ -1,0 +1,14 @@
+[
+  {
+    "id": "f2a8ff69-4a9f-4f71-b8b3-64a3e6ec92fa",
+    "trigger_type": "MANUAL",
+    "status": "FAILED",
+    "started_at": "2026-11-26T19:27:32.935098+00:00",
+    "completed_at": "2026-11-26T19:27:32.952383+00:00",
+    "movies_discovered": 8,
+    "reports_collected": 0,
+    "conflicts_detected": 0,
+    "drafts_generated": 0,
+    "error_summary": null
+  }
+]

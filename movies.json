@@ -1,0 +1,114 @@
+[
+  {
+    "id": "76322e72-10bf-472c-897c-e1565866ec3d",
+    "tmdb_id": null,
+    "title": "Ramayana: Rise of a Legend",
+    "original_title": null,
+    "primary_language": "Hindi",
+    "languages": [
+      "Hindi"
+    ],
+    "release_date": "2026-11-19",
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "ef4c1764-71cf-493d-861d-86ad14f5e173",
+    "tmdb_id": null,
+    "title": "Aadi Anant",
+    "original_title": null,
+    "primary_language": "Marathi",
+    "languages": [
+      "Marathi"
+    ],
+    "release_date": "2026-11-12",
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "de155538-16a8-4fd0-8b7a-005f9994f327",
+    "tmdb_id": null,
+    "title": "Disco",
+    "original_title": null,
+    "primary_language": "Malayalam",
+    "languages": [
+      "Malayalam"
+    ],
+    "release_date": "2026-11-06",
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "6da2050f-5ccf-483e-859b-4d6b1c455db8",
+    "tmdb_id": null,
+    "title": "Titanic",
+    "original_title": null,
+    "primary_language": "Tamil",
+    "languages": [
+      "Tamil"
+    ],
+    "release_date": "2026-10-23",
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "a597f7c0-0ca6-466f-b1bb-aa39f6931425",
+    "tmdb_id": null,
+    "title": "Udta Teer",
+    "original_title": null,
+    "primary_language": "Hindi",
+    "languages": [
+      "Hindi"
+    ],
+    "release_date": "2026-10-23",
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "bb30b016-e55b-4a35-9343-2d1d3820b0b2",
+    "tmdb_id": null,
+    "title": "DeSu7",
+    "original_title": null,
+    "primary_language": "Bengali",
+    "languages": [
+      "Bengali"
+    ],
+    "release_date": "2026-10-16",
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "07fc8a6b-8dfd-4105-8d12-c8ec8afc9011",
+    "tmdb_id": null,
+    "title": "Emperor vs Sarat Chandra",
+    "original_title": null,
+    "primary_language": "Bengali",
+    "languages": [
+      "Bengali"
+    ],
+    "release_date": "2026-10-16",
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "e1e08af3-c63f-4c18-80fc-148517e0013c",
+    "tmdb_id": null,
+    "title": "Jailer 3",
+    "original_title": null,
+    "primary_language": "Tamil",
+    "languages": [
+      "Tamil"
+    ],
+    "release_date": "2026-10-15",
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  }
+]
