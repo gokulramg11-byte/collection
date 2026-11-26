@@ -14,7 +14,7 @@ from sqlalchemy import select
 from app.collectors.base import SourceRegistry
 from app.collectors.sources.licensed_feed import LicensedFeedAdapter
 from app.collectors.sources.manual_import import ManualImportAdapter
-from app.collectors.sources.rss_feed import PermittedRssAdapter
+from app.collectors.sources.rss_feed import DEFAULT_INDIA_RSS_URLS, PermittedRssAdapter
 from app.collectors.tmdb import TmdbClient
 from app.collectors.wikidata import WikidataClient
 from app.config.settings import Settings, get_settings
@@ -33,6 +33,8 @@ logger = logging.getLogger(__name__)
 def build_default_registry(settings: Settings) -> SourceRegistry:
     """Build the authorized source adapter registry from settings."""
     rss_urls = [u.strip() for u in settings.permitted_rss_urls.split(",") if u.strip()]
+    if not rss_urls:
+        rss_urls = list(DEFAULT_INDIA_RSS_URLS)
     registry = SourceRegistry()
     registry.register(ManualImportAdapter(import_dir=settings.manual_import_dir))
     registry.register(

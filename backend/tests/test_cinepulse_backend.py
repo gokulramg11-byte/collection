@@ -442,16 +442,32 @@ async def test_licensed_and_rss_adapters_with_mock_transport():
     assert len(api_res.reports) == 1
 
     rss_xml = """<?xml version="1.0"?>
-    <rss><channel><item>
+    <rss><channel>
+    <item>
         <title>Drishyam 3 - India Net Daily: ₹9.50 Cr</title>
         <link>https://rss.example.com/item1</link>
-    </item></channel></rss>"""
+    </item>
+    <item>
+        <title>Pushpa 2 Box Office Collection Day 5: Allu Arjun film mints ₹45.20 Cr in India - Hindustan Times</title>
+        <link>https://news.google.com/rss/articles/item2</link>
+    </item>
+    <item>
+        <title>ARM Worldwide Box Office: Crosses Rs 92.40 Crore total - Koimoi</title>
+        <link>https://www.koimoi.com/box-office/arm</link>
+    </item>
+    </channel></rss>"""
     rss_transport = httpx.MockTransport(lambda req: httpx.Response(200, text=rss_xml))
     rss_adapter = PermittedRssAdapter(
-        feed_urls=["https://rss.example.com/feed.xml"],
+        feed_urls=["https://news.google.com/rss/search?q=malayalam+box+office&hl=en-IN&gl=IN&ceid=IN:en"],
         transport=rss_transport,
     )
     rss_res = await rss_adapter.fetch_reports(date(2026, 11, 26))
     assert rss_res.success is True
-    assert len(rss_res.reports) == 1
+    assert len(rss_res.reports) == 3
     assert rss_res.reports[0].amount_inr_crores == Decimal("9.5000")
+    assert rss_res.reports[1].movie_title == "Pushpa 2"
+    assert rss_res.reports[1].metric == CollectionMetric.INDIA_NET
+    assert rss_res.reports[1].day_number == 5
+    assert rss_res.reports[2].movie_title == "ARM"
+    assert rss_res.reports[2].metric == CollectionMetric.WORLDWIDE_GROSS
+    assert rss_res.reports[2].period_type == ReportingPeriodType.CUMULATIVE
