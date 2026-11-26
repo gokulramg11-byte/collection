@@ -14,6 +14,7 @@ from app.collectors.sources.licensed_feed import LicensedFeedAdapter
 from app.collectors.sources.manual_import import ManualImportAdapter
 from app.collectors.sources.rss_feed import PermittedRssAdapter
 from app.collectors.tmdb import TmdbClient
+from app.collectors.wikidata import WikidataClient
 from app.config.settings import Settings
 from app.database.session import create_db_engine, get_session_factory, session_scope
 from app.main import run_daily_pipeline
@@ -357,6 +358,11 @@ async def test_partial_source_failure_and_full_pipeline():
             settings=cfg,
             registry=reg,
             tmdb_client=tmdb,
+            wikidata_client=WikidataClient(
+                transport=httpx.MockTransport(
+                    lambda req: httpx.Response(200, json={"results": {"bindings": []}})
+                )
+            ),
         )
 
         assert summary["status"] == "PARTIAL_SUCCESS"
@@ -376,11 +382,17 @@ async def test_github_json_export_sanitized():
             tmdb_api_key="super-secret-should-never-appear",
         )
         reg = SourceRegistry([])
+        empty_wiki = WikidataClient(
+            transport=httpx.MockTransport(
+                lambda req: httpx.Response(200, json={"results": {"bindings": []}})
+            )
+        )
         summary = await run_daily_pipeline(
             target_date=date(2026, 11, 26),
             trigger_type="MANUAL",
             settings=cfg,
             registry=reg,
+            wikidata_client=empty_wiki,
             export_dir=str(export_dir),
         )
         assert summary["exported"] is not None

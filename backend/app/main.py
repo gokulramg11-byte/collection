@@ -16,6 +16,7 @@ from app.collectors.sources.licensed_feed import LicensedFeedAdapter
 from app.collectors.sources.manual_import import ManualImportAdapter
 from app.collectors.sources.rss_feed import PermittedRssAdapter
 from app.collectors.tmdb import TmdbClient
+from app.collectors.wikidata import WikidataClient
 from app.config.settings import Settings, get_settings
 from app.database.session import create_db_engine, get_session_factory, session_scope
 from app.export.github_json_exporter import export_github_json
@@ -50,6 +51,7 @@ async def run_daily_pipeline(
     settings: Settings | None = None,
     registry: SourceRegistry | None = None,
     tmdb_client: TmdbClient | None = None,
+    wikidata_client: WikidataClient | None = None,
     export_dir: str | None = None,
 ) -> dict:
     """Execute the full collection, reconciliation, draft-generation, and expiry pipeline."""
@@ -60,18 +62,25 @@ async def run_daily_pipeline(
         api_key=cfg.tmdb_api_key,
         read_access_token=cfg.tmdb_read_access_token,
     )
+    wikidata = wikidata_client or WikidataClient()
 
     engine = create_db_engine(cfg.database_url)
     Base.metadata.create_all(engine)
     factory = get_session_factory(cfg.database_url)
 
-    # 1. Discover newly released Indian movies via TMDB (metadata only)
+    # 1. Discover newly released Indian movies (TMDB primary, Wikidata open-data fallback)
     discovered_movies = []
     if tmdb.is_configured():
         try:
             discovered_movies = await tmdb.discover_indian_releases(reference_date=run_date)
         except Exception as exc:  # noqa: BLE001
             logger.warning("TMDB discovery failed: %s", exc)
+
+    if not discovered_movies:
+        try:
+            discovered_movies = await wikidata.discover_indian_releases(reference_date=run_date)
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("Wikidata discovery fallback failed: %s", exc)
 
     # 2. Run authorized source adapters with fault isolation
     adapter_results = await reg.collect_all(run_date)
