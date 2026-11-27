@@ -109,6 +109,7 @@ def ingest_report(
                 notes=f"Revised from {prev.amount_inr_crores} ({prev.source_status}) to {new_report.amount_inr_crores} ({new_report.source_status})",
             )
         )
+        session.flush()
         revision_recorded = True
 
     return IngestionOutcome(

@@ -205,12 +205,12 @@ def test_top5_ranking_and_post_generation(db_session):
     src = _seed_source(db_session, "feed_a", "Feed A")
     rep_date = date(2026, 11, 26)
     samples = [
-        ("Movie A", IndianLanguage.MALAYALAM, "12.50"),
-        ("Movie B", IndianLanguage.MALAYALAM, "8.20"),
-        ("Movie C", IndianLanguage.TAMIL, "19.00"),
-        ("Movie D", IndianLanguage.HINDI, "24.10"),
+        ("Movie A", IndianLanguage.MALAYALAM, "12.50", "42.00"),
+        ("Movie B", IndianLanguage.MALAYALAM, "8.20", "28.50"),
+        ("Movie C", IndianLanguage.TAMIL, "19.00", None),
+        ("Movie D", IndianLanguage.HINDI, "24.10", None),
     ]
-    for title, lang, amt in samples:
+    for title, lang, amt, ww_cume in samples:
         raw = RawCollectionReportInput(
             source_code="feed_a",
             movie_title=title,
@@ -224,6 +224,8 @@ def test_top5_ranking_and_post_generation(db_session):
             source_url=f"https://example.com/{title.replace(' ', '_')}",
         )
         out = ingest_report(db_session, src, raw)
+        out.saved_report.movie.release_date = date(2026, 11, 24)
+        db_session.flush()
         reconcile_bucket(
             db_session,
             out.saved_report.movie_id,
@@ -231,6 +233,22 @@ def test_top5_ranking_and_post_generation(db_session):
             ReportingPeriodType.DAILY.value,
             rep_date,
         )
+        if ww_cume is not None:
+            raw_cume = raw.model_copy(
+                update={
+                    "metric": CollectionMetric.WORLDWIDE_GROSS,
+                    "period_type": ReportingPeriodType.CUMULATIVE,
+                    "amount_inr_crores": Decimal(ww_cume),
+                }
+            )
+            out_cume = ingest_report(db_session, src, raw_cume)
+            reconcile_bucket(
+                db_session,
+                out_cume.saved_report.movie_id,
+                CollectionMetric.WORLDWIDE_GROSS.value,
+                ReportingPeriodType.CUMULATIVE.value,
+                rep_date,
+            )
 
     ranking = build_top_5_ranking(
         db_session,
