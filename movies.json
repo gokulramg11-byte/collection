@@ -14,20 +14,6 @@
     "is_monitored": true
   },
   {
-    "id": "fee459dc-0744-49b8-9f20-0e98e3486c62",
-    "tmdb_id": null,
-    "title": "Sadhak Bamakhyapa",
-    "original_title": null,
-    "primary_language": "Bengali",
-    "languages": [
-      "Bengali"
-    ],
-    "release_date": "2026-11-20",
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
     "id": "76322e72-10bf-472c-897c-e1565866ec3d",
     "tmdb_id": null,
     "title": "Ramayana: Rise of a Legend",
@@ -37,20 +23,6 @@
       "Hindi"
     ],
     "release_date": "2026-11-19",
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "ef4c1764-71cf-493d-861d-86ad14f5e173",
-    "tmdb_id": null,
-    "title": "Aadi Anant",
-    "original_title": null,
-    "primary_language": "Marathi",
-    "languages": [
-      "Marathi"
-    ],
-    "release_date": "2026-11-12",
     "poster_path": null,
     "overview": null,
     "is_monitored": true
@@ -70,15 +42,15 @@
     "is_monitored": true
   },
   {
-    "id": "6da2050f-5ccf-483e-859b-4d6b1c455db8",
+    "id": "c4f0cf4a-68c7-4970-8247-5caf71f9f190",
     "tmdb_id": null,
-    "title": "Titanic",
+    "title": "Klara and the Sun",
     "original_title": null,
-    "primary_language": "Tamil",
+    "primary_language": "English",
     "languages": [
-      "Tamil"
+      "English"
     ],
-    "release_date": "2026-10-23",
+    "release_date": "2026-10-29",
     "poster_path": null,
     "overview": null,
     "is_monitored": true
@@ -98,29 +70,15 @@
     "is_monitored": true
   },
   {
-    "id": "bb30b016-e55b-4a35-9343-2d1d3820b0b2",
+    "id": "6da2050f-5ccf-483e-859b-4d6b1c455db8",
     "tmdb_id": null,
-    "title": "DeSu7",
+    "title": "Titanic",
     "original_title": null,
-    "primary_language": "Bengali",
+    "primary_language": "Tamil",
     "languages": [
-      "Bengali"
+      "Tamil"
     ],
-    "release_date": "2026-10-16",
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "07fc8a6b-8dfd-4105-8d12-c8ec8afc9011",
-    "tmdb_id": null,
-    "title": "Emperor vs Sarat Chandra",
-    "original_title": null,
-    "primary_language": "Bengali",
-    "languages": [
-      "Bengali"
-    ],
-    "release_date": "2026-10-16",
+    "release_date": "2026-10-23",
     "poster_path": null,
     "overview": null,
     "is_monitored": true
@@ -140,443 +98,9 @@
     "is_monitored": true
   },
   {
-    "id": "73907cf9-af0a-4208-a224-cd4c317f4bdc",
+    "id": "4f694a19-7aab-4753-a69b-8feac8a14751",
     "tmdb_id": null,
-    "title": "Telugu Cinema 2026",
-    "original_title": null,
-    "primary_language": "Telugu",
-    "languages": [
-      "Telugu"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "8e975454-23fb-4616-a9ef-eea77a4d1f8c",
-    "tmdb_id": null,
-    "title": "Ramayana movie Ranbir Kapoor",
-    "original_title": null,
-    "primary_language": "Tamil",
-    "languages": [
-      "Tamil"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "968e6452-1b9e-4fb6-96a2-0b1ccb9c6825",
-    "tmdb_id": null,
-    "title": "Rajinikanth's 'Jailer 2' vs '2.0': How Nelson Dilipkumar's sequel rewrote the Tamil",
-    "original_title": null,
-    "primary_language": "Tamil",
-    "languages": [
-      "Tamil"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "4d18e99f-35e5-40d3-bbab-1cb18830b5a7",
-    "tmdb_id": null,
-    "title": "Idli Kadai",
-    "original_title": null,
-    "primary_language": "Tamil",
-    "languages": [
-      "Tamil"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "62631427-13af-443a-9759-9b71a9befb9a",
-    "tmdb_id": null,
-    "title": "Dude",
-    "original_title": null,
-    "primary_language": "Tamil",
-    "languages": [
-      "Tamil"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "df70330d-5945-42d7-a8a9-c67eab36f072",
-    "tmdb_id": null,
-    "title": "Parasakthi",
-    "original_title": null,
-    "primary_language": "Tamil",
-    "languages": [
-      "Tamil"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "b068b2ae-06c2-4eff-aa51-d2cf45bc1f15",
-    "tmdb_id": null,
-    "title": "Suriya\u2019s Karuppu crosses Rs 200 cr globally, ends Tamil",
-    "original_title": null,
-    "primary_language": "Tamil",
-    "languages": [
-      "Tamil"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "e0ac20ed-923f-4071-b3f0-07e706f3a373",
-    "tmdb_id": null,
-    "title": "Rs 800 crore for Jailer 2 and Rajinikanth as undisputed king of Tamil",
-    "original_title": null,
-    "primary_language": "Tamil",
-    "languages": [
-      "Tamil"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "5a12d6e6-6e23-47da-a8b4-45939ada4ccb",
-    "tmdb_id": null,
-    "title": "Yeh Prem Mol Liya opening day",
-    "original_title": null,
-    "primary_language": "Other",
-    "languages": [
-      "Other"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "c27c905e-72f5-4168-96c8-25c5bf1fe93f",
-    "tmdb_id": null,
-    "title": "The Devil",
-    "original_title": null,
-    "primary_language": "Kannada",
-    "languages": [
-      "Kannada"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "ca7a2096-ac68-4dfd-afb3-ee8b5ac094b9",
-    "tmdb_id": null,
-    "title": "Jailer 2",
-    "original_title": null,
-    "primary_language": "Kannada",
-    "languages": [
-      "Kannada"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "0d1869e1-d040-4aea-8fde-15abaf97ecd4",
-    "tmdb_id": null,
-    "title": "Toxic",
-    "original_title": null,
-    "primary_language": "Kannada",
-    "languages": [
-      "Kannada"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "18fe0fe5-6c4c-4166-8bbf-8cc5380ee940",
-    "tmdb_id": null,
-    "title": "Premada Oorali: How A Rs 2 Crore Budget Kannada Film Is Rewriting",
-    "original_title": null,
-    "primary_language": "Kannada",
-    "languages": [
-      "Kannada"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "8b9ab8d2-8f5a-4dc9-98dd-ae1a94634225",
-    "tmdb_id": null,
-    "title": "\u2018Jailer\u2019 Kerala",
-    "original_title": null,
-    "primary_language": "Kannada",
-    "languages": [
-      "Kannada"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "65eff7d0-3e20-44c4-8c22-1b701a298a54",
-    "tmdb_id": null,
-    "title": "\u2018Amaran\u2019",
-    "original_title": null,
-    "primary_language": "Kannada",
-    "languages": [
-      "Kannada"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "55e0dbd0-b66a-4a9f-a27b-2c517e0b1546",
-    "tmdb_id": null,
-    "title": "Kantara",
-    "original_title": null,
-    "primary_language": "Kannada",
-    "languages": [
-      "Kannada"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "bd407ddc-a31b-49c4-b385-d899fefb83df",
-    "tmdb_id": null,
-    "title": "Peddi",
-    "original_title": null,
-    "primary_language": "Telugu",
-    "languages": [
-      "Telugu"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "4d1d82b7-0829-4108-9539-d4a9be26dd30",
-    "tmdb_id": null,
-    "title": "Hanuman Ansh Telugu",
-    "original_title": null,
-    "primary_language": "Telugu",
-    "languages": [
-      "Telugu"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "1779c9f7-45f4-41c0-8537-2cb9654b5bcf",
-    "tmdb_id": null,
-    "title": "Irumudi Week 1",
-    "original_title": null,
-    "primary_language": "Telugu",
-    "languages": [
-      "Telugu"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "4a26daf1-defb-41e1-9aed-afd61dc7b7f6",
-    "tmdb_id": null,
-    "title": "DNK",
-    "original_title": null,
-    "primary_language": "Telugu",
-    "languages": [
-      "Telugu"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "9e751789-bd3f-4923-a157-032e3747d80c",
-    "tmdb_id": null,
-    "title": "Irumudi",
-    "original_title": null,
-    "primary_language": "Telugu",
-    "languages": [
-      "Telugu"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "c5ffec40-ebd0-49ce-ae88-b261b840a19e",
-    "tmdb_id": null,
-    "title": "Lokah",
-    "original_title": null,
-    "primary_language": "Telugu",
-    "languages": [
-      "Telugu"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "20033c7f-7be3-49d1-98e5-5ca208514e91",
-    "tmdb_id": null,
-    "title": "HIT 3",
-    "original_title": null,
-    "primary_language": "Telugu",
-    "languages": [
-      "Telugu"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "695a657b-2ef2-4490-8d74-7a749fe1bffd",
-    "tmdb_id": null,
-    "title": "'OG'",
-    "original_title": null,
-    "primary_language": "Telugu",
-    "languages": [
-      "Telugu"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "a3ceff57-8e97-4f48-982c-2c179ab182da",
-    "tmdb_id": null,
-    "title": "Akhanda 2",
-    "original_title": null,
-    "primary_language": "Telugu",
-    "languages": [
-      "Telugu"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "0c193561-fe3f-4f06-a288-aefb266750a0",
-    "tmdb_id": null,
-    "title": "Karuppu",
-    "original_title": null,
-    "primary_language": "Telugu",
-    "languages": [
-      "Telugu"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "d4bd1805-4e18-4667-b6a3-b4121b02979d",
-    "tmdb_id": null,
-    "title": "'Dorothy'",
-    "original_title": null,
-    "primary_language": "Telugu",
-    "languages": [
-      "Telugu"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "48402dac-b637-44fa-ab17-693a63f90f97",
-    "tmdb_id": null,
-    "title": "The Paradise",
-    "original_title": null,
-    "primary_language": "Telugu",
-    "languages": [
-      "Telugu"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "1e9f51d7-009e-43de-85de-48d103430f68",
-    "tmdb_id": null,
-    "title": "'Ramayana' Crosses \u20b9880 Crore In Just 16 Days, Sets Hindi",
-    "original_title": null,
-    "primary_language": "Hindi",
-    "languages": [
-      "Hindi"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "f06486a9-03e7-4ca1-9f99-777a957bc18b",
-    "tmdb_id": null,
-    "title": "Top 2nd Fridays of All Time ft. Bollywood Films at Hindi",
-    "original_title": null,
-    "primary_language": "Hindi",
-    "languages": [
-      "Hindi"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "19244dbd-52e9-4550-9abb-5cbfa692df0e",
-    "tmdb_id": null,
-    "title": "Jailer 2 (Hindi)",
-    "original_title": null,
-    "primary_language": "Hindi",
-    "languages": [
-      "Hindi"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "69ae0000-9139-4b8f-ae46-63d551b7d753",
-    "tmdb_id": null,
-    "title": "\u2018Pushpa\u2019 Hindi",
+    "title": "\u2018Adipurush\u2019 Hindi",
     "original_title": null,
     "primary_language": "Hindi",
     "languages": [
@@ -602,9 +126,9 @@
     "is_monitored": true
   },
   {
-    "id": "4f694a19-7aab-4753-a69b-8feac8a14751",
+    "id": "69ae0000-9139-4b8f-ae46-63d551b7d753",
     "tmdb_id": null,
-    "title": "\u2018Adipurush\u2019 Hindi",
+    "title": "\u2018Pushpa\u2019 Hindi",
     "original_title": null,
     "primary_language": "Hindi",
     "languages": [
@@ -616,13 +140,13 @@
     "is_monitored": true
   },
   {
-    "id": "2148ec36-d185-4428-9918-9f42a5eaf0e4",
+    "id": "19244dbd-52e9-4550-9abb-5cbfa692df0e",
     "tmdb_id": null,
-    "title": "\u2018Kaatera\u2019",
+    "title": "Jailer 2 (Hindi)",
     "original_title": null,
-    "primary_language": "Kannada",
+    "primary_language": "Hindi",
     "languages": [
-      "Kannada"
+      "Hindi"
     ],
     "release_date": null,
     "poster_path": null,
@@ -630,13 +154,13 @@
     "is_monitored": true
   },
   {
-    "id": "8af51ad7-cfaf-4904-a6c2-feb0045af15f",
+    "id": "f06486a9-03e7-4ca1-9f99-777a957bc18b",
     "tmdb_id": null,
-    "title": "\u2018Max\u2019",
+    "title": "Top 2nd Fridays of All Time ft. Bollywood Films at Hindi",
     "original_title": null,
-    "primary_language": "Kannada",
+    "primary_language": "Hindi",
     "languages": [
-      "Kannada"
+      "Hindi"
     ],
     "release_date": null,
     "poster_path": null,
@@ -644,9 +168,23 @@
     "is_monitored": true
   },
   {
-    "id": "379d886b-e42f-4477-9faf-9b9c0f1b3182",
+    "id": "1e9f51d7-009e-43de-85de-48d103430f68",
     "tmdb_id": null,
-    "title": "\u2018Bagheera\u2019",
+    "title": "'Ramayana' Crosses \u20b9880 Crore In Just 16 Days, Sets Hindi",
+    "original_title": null,
+    "primary_language": "Hindi",
+    "languages": [
+      "Hindi"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "9e53c053-65a2-4b14-9aa4-2f0a9091c9df",
+    "tmdb_id": null,
+    "title": "Kannada film Premada Oorali becomes a superhit, crosses Rs 50 crore in net",
     "original_title": null,
     "primary_language": "Kannada",
     "languages": [
@@ -672,9 +210,9 @@
     "is_monitored": true
   },
   {
-    "id": "9e53c053-65a2-4b14-9aa4-2f0a9091c9df",
+    "id": "379d886b-e42f-4477-9faf-9b9c0f1b3182",
     "tmdb_id": null,
-    "title": "Kannada film Premada Oorali becomes a superhit, crosses Rs 50 crore in net",
+    "title": "\u2018Bagheera\u2019",
     "original_title": null,
     "primary_language": "Kannada",
     "languages": [
@@ -686,13 +224,13 @@
     "is_monitored": true
   },
   {
-    "id": "a9a50197-7998-44c9-95b1-7e6d872bcac5",
+    "id": "8af51ad7-cfaf-4904-a6c2-feb0045af15f",
     "tmdb_id": null,
-    "title": "War 2 Telugu",
+    "title": "\u2018Max\u2019",
     "original_title": null,
-    "primary_language": "Telugu",
+    "primary_language": "Kannada",
     "languages": [
-      "Telugu"
+      "Kannada"
     ],
     "release_date": null,
     "poster_path": null,
@@ -700,13 +238,13 @@
     "is_monitored": true
   },
   {
-    "id": "0622a78d-f491-4c8b-84b8-398b4aacde74",
+    "id": "2148ec36-d185-4428-9918-9f42a5eaf0e4",
     "tmdb_id": null,
-    "title": "ENE Repeat Telugu States",
+    "title": "\u2018Kaatera\u2019",
     "original_title": null,
-    "primary_language": "Telugu",
+    "primary_language": "Kannada",
     "languages": [
-      "Telugu"
+      "Kannada"
     ],
     "release_date": null,
     "poster_path": null,
@@ -714,13 +252,13 @@
     "is_monitored": true
   },
   {
-    "id": "389301f8-baa6-4493-b14c-bfa0b975f13a",
+    "id": "55e0dbd0-b66a-4a9f-a27b-2c517e0b1546",
     "tmdb_id": null,
-    "title": "Mookuthi Amman 2",
+    "title": "Kantara",
     "original_title": null,
-    "primary_language": "Telugu",
+    "primary_language": "Kannada",
     "languages": [
-      "Telugu"
+      "Kannada"
     ],
     "release_date": null,
     "poster_path": null,
@@ -728,13 +266,13 @@
     "is_monitored": true
   },
   {
-    "id": "c73124ed-145d-4c12-963c-b2baa71c6723",
+    "id": "65eff7d0-3e20-44c4-8c22-1b701a298a54",
     "tmdb_id": null,
-    "title": "KGF: Chapter 2 (Telugu)",
+    "title": "\u2018Amaran\u2019",
     "original_title": null,
-    "primary_language": "Telugu",
+    "primary_language": "Kannada",
     "languages": [
-      "Telugu"
+      "Kannada"
     ],
     "release_date": null,
     "poster_path": null,
@@ -742,13 +280,13 @@
     "is_monitored": true
   },
   {
-    "id": "6f955281-a401-4794-a617-9cbcb4bc5113",
+    "id": "8b9ab8d2-8f5a-4dc9-98dd-ae1a94634225",
     "tmdb_id": null,
-    "title": "'Jawan' Telugu",
+    "title": "\u2018Jailer\u2019 Kerala",
     "original_title": null,
-    "primary_language": "Telugu",
+    "primary_language": "Kannada",
     "languages": [
-      "Telugu"
+      "Kannada"
     ],
     "release_date": null,
     "poster_path": null,
@@ -756,13 +294,13 @@
     "is_monitored": true
   },
   {
-    "id": "4d57c8ab-15e5-4fbe-9d86-541cb932c61e",
+    "id": "18fe0fe5-6c4c-4166-8bbf-8cc5380ee940",
     "tmdb_id": null,
-    "title": "\u2018Vikram: Hitlist\u2019 Telugu box-office collections",
+    "title": "Premada Oorali: How A Rs 2 Crore Budget Kannada Film Is Rewriting",
     "original_title": null,
-    "primary_language": "Telugu",
+    "primary_language": "Kannada",
     "languages": [
-      "Telugu"
+      "Kannada"
     ],
     "release_date": null,
     "poster_path": null,
@@ -770,13 +308,13 @@
     "is_monitored": true
   },
   {
-    "id": "f79c42d8-7b3e-49da-8860-c6dc36d72540",
+    "id": "0d1869e1-d040-4aea-8fde-15abaf97ecd4",
     "tmdb_id": null,
-    "title": "'Adipurush' (Telugu) Box-office Collections",
+    "title": "Toxic",
     "original_title": null,
-    "primary_language": "Telugu",
+    "primary_language": "Kannada",
     "languages": [
-      "Telugu"
+      "Kannada"
     ],
     "release_date": null,
     "poster_path": null,
@@ -784,13 +322,13 @@
     "is_monitored": true
   },
   {
-    "id": "a6197227-9a1c-4e68-9988-b51eee9c51d9",
+    "id": "ca7a2096-ac68-4dfd-afb3-ee8b5ac094b9",
     "tmdb_id": null,
-    "title": "\u2018Avatar: The way of water(Telugu)\u2019",
+    "title": "Jailer 2",
     "original_title": null,
-    "primary_language": "Telugu",
+    "primary_language": "Kannada",
     "languages": [
-      "Telugu"
+      "Kannada"
     ],
     "release_date": null,
     "poster_path": null,
@@ -798,13 +336,13 @@
     "is_monitored": true
   },
   {
-    "id": "927429e7-8ed4-4b32-b239-5ed4d7b00679",
+    "id": "c27c905e-72f5-4168-96c8-25c5bf1fe93f",
     "tmdb_id": null,
-    "title": "'Game Changer' Telugu",
+    "title": "The Devil",
     "original_title": null,
-    "primary_language": "Telugu",
+    "primary_language": "Kannada",
     "languages": [
-      "Telugu"
+      "Kannada"
     ],
     "release_date": null,
     "poster_path": null,
@@ -812,135 +350,9 @@
     "is_monitored": true
   },
   {
-    "id": "3d3dbf80-0e12-4d1c-9366-98b1d3d6685e",
+    "id": "602d571a-f7fc-4082-b53f-7e14aad0ddca",
     "tmdb_id": null,
-    "title": "\u2018Pathaan\u2019 Tamil",
-    "original_title": null,
-    "primary_language": "Tamil",
-    "languages": [
-      "Tamil"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "7baaaa37-e69a-49d3-9505-8fa1cee620b1",
-    "tmdb_id": null,
-    "title": "Drishyam 3 (Malayalam)",
-    "original_title": null,
-    "primary_language": "Malayalam",
-    "languages": [
-      "Malayalam"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "71a74546-9a4b-4af3-a4ab-09acca581084",
-    "tmdb_id": null,
-    "title": "Mohanlal beats Mohanlal: Thudarum overtakes Lucifer at the",
-    "original_title": null,
-    "primary_language": "Malayalam",
-    "languages": [
-      "Malayalam"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "d469e0bd-0c3e-41d3-bc53-78b817fe0c98",
-    "tmdb_id": null,
-    "title": "\u2018L2: Empuraan\u2019",
-    "original_title": null,
-    "primary_language": "Malayalam",
-    "languages": [
-      "Malayalam"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "f3e1a492-8885-436d-af39-7abdef09502a",
-    "tmdb_id": null,
-    "title": "\u2018ARM\u2019",
-    "original_title": null,
-    "primary_language": "Malayalam",
-    "languages": [
-      "Malayalam"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "a81ab690-5d9c-4d80-a46c-4c1ad9f637c4",
-    "tmdb_id": null,
-    "title": "\u2018Bougainvillea\u2019",
-    "original_title": null,
-    "primary_language": "Malayalam",
-    "languages": [
-      "Malayalam"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "e510ca1e-17ee-448c-a6fb-ed863b93a214",
-    "tmdb_id": null,
-    "title": "\u2018Thalavan\u2019",
-    "original_title": null,
-    "primary_language": "Malayalam",
-    "languages": [
-      "Malayalam"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "c1726d7c-ee36-40d7-a303-02ad047edeaf",
-    "tmdb_id": null,
-    "title": "\u2018Eko\u2019",
-    "original_title": null,
-    "primary_language": "Malayalam",
-    "languages": [
-      "Malayalam"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "648cfe6c-4870-405d-b951-d91c9df7635f",
-    "tmdb_id": null,
-    "title": "Vaazha 2",
-    "original_title": null,
-    "primary_language": "Malayalam",
-    "languages": [
-      "Malayalam"
-    ],
-    "release_date": null,
-    "poster_path": null,
-    "overview": null,
-    "is_monitored": true
-  },
-  {
-    "id": "33b8be08-a0c0-4a33-aafb-8f3fa5be01df",
-    "tmdb_id": null,
-    "title": "Malayalam\u2019s answer to Pushpa? Why Rs 35 cr actioner Kattalan met shocking fate at",
+    "title": "'Bethlehem Kudumba Unit' vs 'Khalifa'",
     "original_title": null,
     "primary_language": "Malayalam",
     "languages": [
@@ -966,9 +378,9 @@
     "is_monitored": true
   },
   {
-    "id": "602d571a-f7fc-4082-b53f-7e14aad0ddca",
+    "id": "33b8be08-a0c0-4a33-aafb-8f3fa5be01df",
     "tmdb_id": null,
-    "title": "'Bethlehem Kudumba Unit' vs 'Khalifa'",
+    "title": "Malayalam\u2019s answer to Pushpa? Why Rs 35 cr actioner Kattalan met shocking fate at",
     "original_title": null,
     "primary_language": "Malayalam",
     "languages": [
@@ -980,13 +392,13 @@
     "is_monitored": true
   },
   {
-    "id": "bb2e2d91-7941-4c90-8f96-c146b641ce22",
+    "id": "648cfe6c-4870-405d-b951-d91c9df7635f",
     "tmdb_id": null,
-    "title": "'Drishyam 3'",
+    "title": "Vaazha 2",
     "original_title": null,
-    "primary_language": "Other",
+    "primary_language": "Malayalam",
     "languages": [
-      "Other"
+      "Malayalam"
     ],
     "release_date": null,
     "poster_path": null,
@@ -994,13 +406,13 @@
     "is_monitored": true
   },
   {
-    "id": "23c2325b-7fa4-4e5d-8f80-7ba288841e95",
+    "id": "c1726d7c-ee36-40d7-a303-02ad047edeaf",
     "tmdb_id": null,
-    "title": "Ranbir Kapoor\u2019s Ramayana Surpasses Allu Arjun\u2019s Pushpa 2 With \u20b91755 Crore Worldwide",
+    "title": "\u2018Eko\u2019",
     "original_title": null,
-    "primary_language": "Other",
+    "primary_language": "Malayalam",
     "languages": [
-      "Other"
+      "Malayalam"
     ],
     "release_date": null,
     "poster_path": null,
@@ -1008,13 +420,13 @@
     "is_monitored": true
   },
   {
-    "id": "81e74e9e-4294-40ee-b7cb-fa18e4518596",
+    "id": "e510ca1e-17ee-448c-a6fb-ed863b93a214",
     "tmdb_id": null,
-    "title": "'Drishyam 3: The Conclusion'",
+    "title": "\u2018Thalavan\u2019",
     "original_title": null,
-    "primary_language": "Other",
+    "primary_language": "Malayalam",
     "languages": [
-      "Other"
+      "Malayalam"
     ],
     "release_date": null,
     "poster_path": null,
@@ -1022,13 +434,13 @@
     "is_monitored": true
   },
   {
-    "id": "643e6da7-c882-4289-bee5-3037c9185210",
+    "id": "a81ab690-5d9c-4d80-a46c-4c1ad9f637c4",
     "tmdb_id": null,
-    "title": "\u2018Ramayana: Part 1\u2019",
+    "title": "\u2018Bougainvillea\u2019",
     "original_title": null,
-    "primary_language": "Other",
+    "primary_language": "Malayalam",
     "languages": [
-      "Other"
+      "Malayalam"
     ],
     "release_date": null,
     "poster_path": null,
@@ -1036,13 +448,13 @@
     "is_monitored": true
   },
   {
-    "id": "9e7ea347-4675-475b-9018-5019f31d42a0",
+    "id": "f3e1a492-8885-436d-af39-7abdef09502a",
     "tmdb_id": null,
-    "title": "Ramayana Overseas",
+    "title": "\u2018ARM\u2019",
     "original_title": null,
-    "primary_language": "Other",
+    "primary_language": "Malayalam",
     "languages": [
-      "Other"
+      "Malayalam"
     ],
     "release_date": null,
     "poster_path": null,
@@ -1050,13 +462,13 @@
     "is_monitored": true
   },
   {
-    "id": "0509349b-645f-40ca-abbf-008368dfb39a",
+    "id": "d469e0bd-0c3e-41d3-bc53-78b817fe0c98",
     "tmdb_id": null,
-    "title": "'Scene' vs 'Mookuthi Amman 2'",
+    "title": "\u2018L2: Empuraan\u2019",
     "original_title": null,
-    "primary_language": "Other",
+    "primary_language": "Malayalam",
     "languages": [
-      "Other"
+      "Malayalam"
     ],
     "release_date": null,
     "poster_path": null,
@@ -1064,13 +476,13 @@
     "is_monitored": true
   },
   {
-    "id": "f03b6ac0-e5f2-487f-b452-4f0b00726172",
+    "id": "71a74546-9a4b-4af3-a4ab-09acca581084",
     "tmdb_id": null,
-    "title": "\u2018ENE Repeat\u2019",
+    "title": "Mohanlal beats Mohanlal: Thudarum overtakes Lucifer at the",
     "original_title": null,
-    "primary_language": "Other",
+    "primary_language": "Malayalam",
     "languages": [
-      "Other"
+      "Malayalam"
     ],
     "release_date": null,
     "poster_path": null,
@@ -1078,13 +490,13 @@
     "is_monitored": true
   },
   {
-    "id": "1e892b1d-1687-49f5-b4fe-02c1fb80f4e5",
+    "id": "7baaaa37-e69a-49d3-9505-8fa1cee620b1",
     "tmdb_id": null,
-    "title": "Ramayana",
+    "title": "Drishyam 3 (Malayalam)",
     "original_title": null,
-    "primary_language": "Other",
+    "primary_language": "Malayalam",
     "languages": [
-      "Other"
+      "Malayalam"
     ],
     "release_date": null,
     "poster_path": null,
@@ -1092,13 +504,13 @@
     "is_monitored": true
   },
   {
-    "id": "6f1aa7ca-9a82-4537-8ff1-c5074bd6aaec",
+    "id": "3d3dbf80-0e12-4d1c-9366-98b1d3d6685e",
     "tmdb_id": null,
-    "title": "'Aakasamlo Oka Tara'",
+    "title": "\u2018Pathaan\u2019 Tamil",
     "original_title": null,
-    "primary_language": "Other",
+    "primary_language": "Tamil",
     "languages": [
-      "Other"
+      "Tamil"
     ],
     "release_date": null,
     "poster_path": null,
@@ -1106,13 +518,13 @@
     "is_monitored": true
   },
   {
-    "id": "1c396f87-f3cc-4f1c-97c4-c1f21d942af6",
+    "id": "e0ac20ed-923f-4071-b3f0-07e706f3a373",
     "tmdb_id": null,
-    "title": "'Scene'",
+    "title": "Rs 800 crore for Jailer 2 and Rajinikanth as undisputed king of Tamil",
     "original_title": null,
-    "primary_language": "Other",
+    "primary_language": "Tamil",
     "languages": [
-      "Other"
+      "Tamil"
     ],
     "release_date": null,
     "poster_path": null,
@@ -1120,13 +532,13 @@
     "is_monitored": true
   },
   {
-    "id": "8be25d7b-568d-42d8-a64c-bad352773279",
+    "id": "b068b2ae-06c2-4eff-aa51-d2cf45bc1f15",
     "tmdb_id": null,
-    "title": "'O.M Operation Mole'",
+    "title": "Suriya\u2019s Karuppu crosses Rs 200 cr globally, ends Tamil",
     "original_title": null,
-    "primary_language": "Other",
+    "primary_language": "Tamil",
     "languages": [
-      "Other"
+      "Tamil"
     ],
     "release_date": null,
     "poster_path": null,
@@ -1134,13 +546,377 @@
     "is_monitored": true
   },
   {
-    "id": "092dc3df-7281-4f54-b5fa-6c28678d941c",
+    "id": "df70330d-5945-42d7-a8a9-c67eab36f072",
     "tmdb_id": null,
-    "title": "OM",
+    "title": "Parasakthi",
     "original_title": null,
-    "primary_language": "Other",
+    "primary_language": "Tamil",
     "languages": [
-      "Other"
+      "Tamil"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "62631427-13af-443a-9759-9b71a9befb9a",
+    "tmdb_id": null,
+    "title": "Dude",
+    "original_title": null,
+    "primary_language": "Tamil",
+    "languages": [
+      "Tamil"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "4d18e99f-35e5-40d3-bbab-1cb18830b5a7",
+    "tmdb_id": null,
+    "title": "Idli Kadai",
+    "original_title": null,
+    "primary_language": "Tamil",
+    "languages": [
+      "Tamil"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "968e6452-1b9e-4fb6-96a2-0b1ccb9c6825",
+    "tmdb_id": null,
+    "title": "Rajinikanth's 'Jailer 2' vs '2.0': How Nelson Dilipkumar's sequel rewrote the Tamil",
+    "original_title": null,
+    "primary_language": "Tamil",
+    "languages": [
+      "Tamil"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "8e975454-23fb-4616-a9ef-eea77a4d1f8c",
+    "tmdb_id": null,
+    "title": "Ramayana movie Ranbir Kapoor",
+    "original_title": null,
+    "primary_language": "Tamil",
+    "languages": [
+      "Tamil"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "927429e7-8ed4-4b32-b239-5ed4d7b00679",
+    "tmdb_id": null,
+    "title": "'Game Changer' Telugu",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "a6197227-9a1c-4e68-9988-b51eee9c51d9",
+    "tmdb_id": null,
+    "title": "\u2018Avatar: The way of water(Telugu)\u2019",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "f79c42d8-7b3e-49da-8860-c6dc36d72540",
+    "tmdb_id": null,
+    "title": "'Adipurush' (Telugu) Box-office Collections",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "4d57c8ab-15e5-4fbe-9d86-541cb932c61e",
+    "tmdb_id": null,
+    "title": "\u2018Vikram: Hitlist\u2019 Telugu box-office collections",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "6f955281-a401-4794-a617-9cbcb4bc5113",
+    "tmdb_id": null,
+    "title": "'Jawan' Telugu",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "c73124ed-145d-4c12-963c-b2baa71c6723",
+    "tmdb_id": null,
+    "title": "KGF: Chapter 2 (Telugu)",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "389301f8-baa6-4493-b14c-bfa0b975f13a",
+    "tmdb_id": null,
+    "title": "Mookuthi Amman 2",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "0622a78d-f491-4c8b-84b8-398b4aacde74",
+    "tmdb_id": null,
+    "title": "ENE Repeat Telugu States",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "a9a50197-7998-44c9-95b1-7e6d872bcac5",
+    "tmdb_id": null,
+    "title": "War 2 Telugu",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "48402dac-b637-44fa-ab17-693a63f90f97",
+    "tmdb_id": null,
+    "title": "The Paradise",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "d4bd1805-4e18-4667-b6a3-b4121b02979d",
+    "tmdb_id": null,
+    "title": "'Dorothy'",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "0c193561-fe3f-4f06-a288-aefb266750a0",
+    "tmdb_id": null,
+    "title": "Karuppu",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "a3ceff57-8e97-4f48-982c-2c179ab182da",
+    "tmdb_id": null,
+    "title": "Akhanda 2",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "695a657b-2ef2-4490-8d74-7a749fe1bffd",
+    "tmdb_id": null,
+    "title": "'OG'",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "20033c7f-7be3-49d1-98e5-5ca208514e91",
+    "tmdb_id": null,
+    "title": "HIT 3",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "c5ffec40-ebd0-49ce-ae88-b261b840a19e",
+    "tmdb_id": null,
+    "title": "Lokah",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "9e751789-bd3f-4923-a157-032e3747d80c",
+    "tmdb_id": null,
+    "title": "Irumudi",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "4a26daf1-defb-41e1-9aed-afd61dc7b7f6",
+    "tmdb_id": null,
+    "title": "DNK",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "1779c9f7-45f4-41c0-8537-2cb9654b5bcf",
+    "tmdb_id": null,
+    "title": "Irumudi Week 1",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "4d1d82b7-0829-4108-9539-d4a9be26dd30",
+    "tmdb_id": null,
+    "title": "Hanuman Ansh Telugu",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "bd407ddc-a31b-49c4-b385-d899fefb83df",
+    "tmdb_id": null,
+    "title": "Peddi",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "73907cf9-af0a-4208-a224-cd4c317f4bdc",
+    "tmdb_id": null,
+    "title": "Telugu Cinema 2026",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
     ],
     "release_date": null,
     "poster_path": null,

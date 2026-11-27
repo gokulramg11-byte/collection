@@ -5,7 +5,7 @@
     "name": "Official Producer / Manual Import",
     "access_method": "MANUAL_IMPORT",
     "health_status": "HEALTHY",
-    "last_success_at": "2026-11-27T11:44:34.439933+00:00",
+    "last_success_at": "2026-11-27T17:17:05.060872+00:00",
     "last_error": null
   },
   {
@@ -22,8 +22,8 @@
     "code": "permitted_trade_rss",
     "name": "Permitted Trade RSS",
     "access_method": "PERMITTED_RSS",
-    "health_status": "HEALTHY",
+    "health_status": "UNAVAILABLE",
     "last_success_at": "2026-11-27T11:44:34.439942+00:00",
-    "last_error": null
+    "last_error": "Client error '429 Too Many Requests' for url 'https://news.google.com/rss/search?q=%22kannada+box+office%22+collection+when:2d&hl=en-IN&gl=IN&ceid=IN:en'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
   }
 ]
