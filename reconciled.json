@@ -1,5 +1,1333 @@
 [
   {
+    "id": "1053487a-41c8-4b3f-9764-688b1309c801",
+    "movie_id": "6f1aa7ca-9a82-4537-8ff1-c5074bd6aaec",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": 5,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "32.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "739842a3-0b50-464e-b58c-aa4505f8bfd0"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "255d0755-63e4-46e2-8937-dda8ba56cd13",
+    "movie_id": "9e53c053-65a2-4b14-9aa4-2f0a9091c9df",
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "50.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "64f08380-b538-48d6-afe7-5a00aefa00a6"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "a6be650b-4a75-4d8a-8344-7e4c105b4b9a",
+    "movie_id": "9e751789-bd3f-4923-a157-032e3747d80c",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "200.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "deca8a05-b1f5-4337-a052-f01b28642d33"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "3ae1acac-7044-4a19-9ff8-e7bcb2824c59",
+    "movie_id": "1e892b1d-1687-49f5-b4fe-02c1fb80f4e5",
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": 16,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "880.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "9ed61532-e8fd-4b4c-bbe5-576c018295e1"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "f3237702-cf6c-4195-842e-2b8dfa33143b",
+    "movie_id": "8e975454-23fb-4616-a9ef-eea77a4d1f8c",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "800.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "259e4695-7dd3-4340-850b-13b4bc85b6d3"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "eaa1035d-7909-4667-bd02-97547efd46d9",
+    "movie_id": "0622a78d-f491-4c8b-84b8-398b4aacde74",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": 3,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "30.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "33f1ee9f-282f-4d46-8e63-f07764a403e2"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "2bbb677b-40c2-42e0-a5ff-5d911c25ff21",
+    "movie_id": "0d1869e1-d040-4aea-8fde-15abaf97ecd4",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 1,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "100.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "3d5d46d8-3f95-4d00-adac-5e2cd43fb350"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "89662edf-6b35-49d7-93e8-9c5312eb122b",
+    "movie_id": "968e6452-1b9e-4fb6-96a2-0b1ccb9c6825",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "520.3500",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "3a3b69b2-47e9-4bd4-ac31-b0e32fa0cbe3"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "cdc138d3-16d3-4a4b-9eb3-f5c16a4778eb",
+    "movie_id": "ca7a2096-ac68-4dfd-afb3-ee8b5ac094b9",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": 20,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "820.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "c4360d19-8c66-48e8-83d9-f922c40277c5"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "9ef60fdc-834d-4dd0-8615-ad8e3ae4c971",
+    "movie_id": "4d18e99f-35e5-40d3-bbab-1cb18830b5a7",
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": 2,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "20.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "8c131d37-508a-417b-811c-d7c8a3c1eded"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "6e7a9173-c1e0-4200-812b-3b1da19615a9",
+    "movie_id": "ca7a2096-ac68-4dfd-afb3-ee8b5ac094b9",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 24,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "824.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "5f7f4c6b-0f06-4a9a-8f35-79ae64673caa"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "e47b5c8f-770a-4758-a612-2fc03d4059c9",
+    "movie_id": "389301f8-baa6-4493-b14c-bfa0b975f13a",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 7,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "17.9300",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "b071ecf4-16b6-4044-8d83-e6f16ff8ec29"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "27b2141e-f11d-4eb7-b40a-1428ed3f3177",
+    "movie_id": "602d571a-f7fc-4082-b53f-7e14aad0ddca",
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "50.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "94dd1e2c-f930-4f2a-a313-9aea8b34c878"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "12e620a9-4c26-4c23-a7d6-b84f560510e3",
+    "movie_id": "f03b6ac0-e5f2-487f-b452-4f0b00726172",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": 1,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "11.3000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "8b8c47a6-ae29-4e1c-b071-30787c7211c4"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "ae95f8e4-d07f-4a1a-94c6-dfe12e154dc8",
+    "movie_id": "b068b2ae-06c2-4eff-aa51-d2cf45bc1f15",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "200.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "ce8d506c-c0d5-4d2a-b402-1e124fc90241"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "3bb28c47-5730-47f9-b9a9-5c7e199ee9a9",
+    "movie_id": "62631427-13af-443a-9759-9b71a9befb9a",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 4,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "41.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "82a07409-0ca5-4b35-b857-7cea755f1945"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "bc3c0945-71d6-42ff-bd8b-8df5e148711b",
+    "movie_id": "e0ac20ed-923f-4071-b3f0-07e706f3a373",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "800.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "91258345-4cdf-494b-b1a9-d67f98f4437a"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "1b069956-d0d6-4e2a-a44f-2c2641751069",
+    "movie_id": "69ae0000-9139-4b8f-ae46-63d551b7d753",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "42.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "54840bed-be4a-4910-9128-45851e042fba"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "b72f48c4-157d-4bff-a74e-c7e309bd2a86",
+    "movie_id": "092dc3df-7281-4f54-b5fa-6c28678d941c",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": 6,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "100.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "302f7d1c-62dc-4e61-8f40-b38f0c488346"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "7d09d177-a1fa-40da-8e6b-5260b9a8a3e7",
+    "movie_id": "f3e1a492-8885-436d-af39-7abdef09502a",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": 22,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "90.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "85a56394-5ee8-475d-b5f9-d2a5489afa5c"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "465a6087-fd59-4b10-bd1f-157f07a8c37c",
+    "movie_id": "1c396f87-f3cc-4f1c-97c4-c1f21d942af6",
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": 6,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "100.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "4fbb5ba9-af3b-4ad6-8398-aa3116580501"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "923ab1b4-a8d9-416f-9c05-cfd05482d444",
+    "movie_id": "ca7a2096-ac68-4dfd-afb3-ee8b5ac094b9",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "300.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "66c85b38-e12c-4a62-a9ff-411a11818470"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "4241498a-ab37-4a9d-890e-0a9ee6ed0fdb",
+    "movie_id": "18fe0fe5-6c4c-4166-8bbf-8cc5380ee940",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "2.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "f1239b2e-d44e-4e0c-a95c-11d03c397e70"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "9f7c6c81-58d5-4a7d-ae66-30383a2fc1a3",
+    "movie_id": "1e892b1d-1687-49f5-b4fe-02c1fb80f4e5",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": 18,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "35.6000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "16c45364-3934-4405-a806-bf49f1068827"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "16dc41df-d082-4eaa-a904-cc052517b508",
+    "movie_id": "df70330d-5945-42d7-a8a9-c67eab36f072",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 10,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "50.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "d3227eaf-de3f-40a4-807d-c14be28b375f"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "d3863fcc-bea7-4188-85f4-e9d46edc30ff",
+    "movie_id": "62631427-13af-443a-9759-9b71a9befb9a",
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": 4,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "40.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "5805edca-fe07-4266-9246-d4e5cc077441"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "a44df4f9-04c1-45d4-b2eb-67575d231a4c",
+    "movie_id": "ca7a2096-ac68-4dfd-afb3-ee8b5ac094b9",
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": 5,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "240.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "8ad36be4-f165-422c-b7b5-6802bd484d4a"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "1e709e77-f13b-4cc9-bc83-ff482355cad0",
+    "movie_id": "6c732718-d9a9-4822-bea5-55a09295c585",
+    "metric": "INDIA_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "300.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "dca8874c-7742-476c-b0b6-d292b8e83bbd"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "52e1d120-478c-44ef-96c9-aa162b419993",
+    "movie_id": "648cfe6c-4870-405d-b951-d91c9df7635f",
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": 10,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "7.6000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "d4a5b3f8-75ee-4ade-b4b2-a09203d8c861"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "40cd3b60-87f8-4aed-b287-3481ea953e21",
+    "movie_id": "6f1aa7ca-9a82-4537-8ff1-c5074bd6aaec",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 4,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "3.2000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "3636027a-23f8-47f6-97bc-21120efdbe95"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "ae90802c-633e-4100-8d91-5352d73fd820",
+    "movie_id": "19244dbd-52e9-4550-9abb-5cbfa692df0e",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "20.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "fd1a7657-f7a5-469d-9023-9d50f32ab0e0"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "819d5680-aa18-47b7-95fb-defea5b0b052",
+    "movie_id": "2148ec36-d185-4428-9918-9f42a5eaf0e4",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 1,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "11.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "e3526d2c-fdff-4ce9-ac6d-8768dc76e2e4"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "e60b4a17-4944-4313-974c-ee2c9c7b97d2",
+    "movie_id": "e510ca1e-17ee-448c-a6fb-ed863b93a214",
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": 16,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "11.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "425482be-b769-4e7a-b857-dc0c01fc0b96"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "72eebb49-9d04-4f8e-8351-ed65b54092ad",
+    "movie_id": "1779c9f7-45f4-41c0-8537-2cb9654b5bcf",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "124.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "b4f4570d-4b9e-441b-81d7-7bb893602b4b"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "42124f6d-a4d6-4bd4-9c22-4a6016be7446",
+    "movie_id": "1e9f51d7-009e-43de-85de-48d103430f68",
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "880.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "6453e1d7-7a1e-426f-85ee-ef67dfb09ab6"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "c7498adc-7488-46df-9f6c-8ffb26ac7fd0",
+    "movie_id": "20033c7f-7be3-49d1-98e5-5ca208514e91",
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": 2,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "31.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "38d7192f-2c6e-42bb-a02a-a05f67653e71"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "f524568c-f373-487e-9162-c396af002c02",
+    "movie_id": "a3ceff57-8e97-4f48-982c-2c179ab182da",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 5,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "70.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "1f1662ad-57e1-402b-ad4f-2b0ffe65c8f0"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "eccc745d-7822-4398-b04a-2727623279b3",
+    "movie_id": "5c3844d2-f334-4636-989f-0d5a85e6571b",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 1,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "2.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "0708d17c-0ac5-4cd6-b7b1-456092095811"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "4844df4f-eea8-4fc2-976d-64e684cd6aac",
+    "movie_id": "092dc3df-7281-4f54-b5fa-6c28678d941c",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 1,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "31.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "366b6082-10ef-44f1-80ca-18589ce396fe"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "7e1c77dd-78af-41e0-93d8-429c9105ebd6",
+    "movie_id": "f6b3b0c8-6b3a-4436-a96f-fceea545d271",
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": 5,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "30.5000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "efd1f553-0b02-4d43-9a9c-aa883f4d3570"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "b99395e9-0ab4-4220-a5cc-8e27ebd8ee2e",
+    "movie_id": "9e7ea347-4675-475b-9018-5019f31d42a0",
+    "metric": "OVERSEAS_GROSS",
+    "period_type": "DAILY",
+    "day_number": 22,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "1800.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "0aa9b5d7-6869-45e7-89ed-47e9a769c552"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "8166612b-8b8e-47db-8eb5-1ff75297daa0",
+    "movie_id": "5a12d6e6-6e23-47da-a8b4-45939ada4ccb",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 1,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "1.5300",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "38997021-416f-45bc-9a42-1fb041996684"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "6ecfa8f0-ce6d-4132-bc01-788d48844d76",
+    "movie_id": "0509349b-645f-40ca-abbf-008368dfb39a",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": 19,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "265.7500",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "ca921f08-f5e9-41fd-851e-56b4ddc59830"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "91633621-b243-4c29-8a54-df46c73452eb",
+    "movie_id": "48402dac-b637-44fa-ab17-693a63f90f97",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 3,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "15.2500",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "5d4d2dc5-2e10-45e5-b2ab-cb1d8795a117"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "351f3db9-655c-4db3-b906-65ac7e880878",
+    "movie_id": "1e892b1d-1687-49f5-b4fe-02c1fb80f4e5",
+    "metric": "INDIA_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": 16,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "880.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "51423e17-b046-437f-8445-eef8e724431d"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "7ac4da1f-4d68-4cb6-a498-35b74143dabc",
+    "movie_id": "bd407ddc-a31b-49c4-b385-d899fefb83df",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "110.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "7d0ab8ad-ea35-4f38-9698-0ade8293a3ca"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "0009a6ec-460f-403e-aeb7-e2b421976c8b",
+    "movie_id": "092dc3df-7281-4f54-b5fa-6c28678d941c",
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": 3,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "50.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "46f41d92-96e3-4f52-b1bd-25e96c585b90"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "bd941b3a-f5e8-46cc-a6da-e9c2108812f8",
+    "movie_id": "bb2e2d91-7941-4c90-8f96-c146b641ce22",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "240.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "0cc6fd90-8981-4b90-8fc8-807f05278f23"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "10a81ad3-735c-4b1c-a7e6-d09177f349e1",
+    "movie_id": "7baaaa37-e69a-49d3-9505-8fa1cee620b1",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": 11,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "220.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "e484a46f-1f7c-4d2d-9569-68e6ba5be766"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "f42546e4-a813-4997-8c10-caf6b79e2094",
+    "movie_id": "55e0dbd0-b66a-4a9f-a27b-2c517e0b1546",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "50.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "48dad03e-924d-4f46-ba03-df630dc4e562"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "ad77adc7-59a0-4481-9a0a-f9e7b9f8f902",
+    "movie_id": "092dc3df-7281-4f54-b5fa-6c28678d941c",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": 7,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "111.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "75c375d9-56fb-4a99-ae1a-fca1a8dcff9f"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "71d3682d-0d77-478e-aeb6-cf848ed4fcc4",
+    "movie_id": "695a657b-2ef2-4490-8d74-7a749fe1bffd",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "154.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "476aa56f-9e57-4c66-9366-c0dc5970f948"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "a78b8104-60b5-4113-92bb-dfc8cb801e8b",
+    "movie_id": "76322e72-10bf-472c-897c-e1565866ec3d",
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": 19,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "1704.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "95f256b2-5eff-4918-9ca7-f4b423f92e51"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "fd0b173a-c05c-4b54-9d56-2a929c6adf9b",
+    "movie_id": "9e751789-bd3f-4923-a157-032e3747d80c",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "150.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "11550848-39cc-4139-b98b-96c37d1845cd"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "86fb2256-df04-4af2-a4fa-ac6cc9aa07d9",
+    "movie_id": "6c732718-d9a9-4822-bea5-55a09295c585",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "310.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "1a114d59-f629-42d1-a95d-3ea5c6258f64"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "d4e4b3ef-e9f7-4b8a-ac92-22727f0a43f4",
+    "movie_id": "71a74546-9a4b-4af3-a4ab-09acca581084",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "70.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "e9e42a63-45b9-40d5-b06a-4294f3a5a61f"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "28ecb4d5-f69a-47ed-9943-deac3f4bd0cc",
+    "movie_id": "695a657b-2ef2-4490-8d74-7a749fe1bffd",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 6,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "150.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "13e2bc8a-5216-4e28-a05a-a4068ca4250b"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "0fec91c1-8a7a-4bb6-b333-3ec004fb85c5",
+    "movie_id": "73907cf9-af0a-4208-a224-cd4c317f4bdc",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "2152.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "8159fdd3-b086-40ad-96c3-8d4588de8d26"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "688a876f-d12d-4bfb-b0e0-09ba3e837868",
+    "movie_id": "c1726d7c-ee36-40d7-a303-02ad047edeaf",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 10,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "2.5000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "5692395a-9943-46d4-92a9-1d1b79f8b861"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "d53b6328-3be0-4a84-80f6-268a76503dda",
+    "movie_id": "0c193561-fe3f-4f06-a288-aefb266750a0",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 3,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "120.7000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "68c2214f-3531-4acb-a041-293032bb2a15"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "6a308eea-4ffb-4ada-8022-cd233cf1109c",
+    "movie_id": "1e892b1d-1687-49f5-b4fe-02c1fb80f4e5",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "17.5000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "8fecb70d-404d-464b-86ed-d6365d52f7cc"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "d4ef4d76-c5b1-46de-b9dc-ea88e5840016",
+    "movie_id": "c5ffec40-ebd0-49ce-ae88-b261b840a19e",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 2,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "1.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "ae116307-4e30-4f05-80c0-a37018db2fd3"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "bc72a114-89e5-4490-946e-52c35bdb59a1",
+    "movie_id": "f03b6ac0-e5f2-487f-b452-4f0b00726172",
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": 7,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "1.3500",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "0ee36d8c-7073-4f11-a22b-3b97a96763a2"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "6e707530-d27a-4914-a29a-f26c2674dbf1",
+    "movie_id": "bb2e2d91-7941-4c90-8f96-c146b641ce22",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 1,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "50.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "046e33df-1231-44d4-896e-341d165e93d6"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "62b8fc18-e9d9-4da1-aebe-9827afe8eac0",
+    "movie_id": "643e6da7-c882-4289-bee5-3037c9185210",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 12,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "800.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "c4730bc2-8aa7-450d-8cfe-8f83fd876e4d"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "1311cbf2-b14a-4fa2-8d42-142fb132e76a",
+    "movie_id": "76322e72-10bf-472c-897c-e1565866ec3d",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 6,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "823.5000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "496e2997-f98b-4611-824d-c737e66440a6"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "cb7007af-130d-4796-bbde-b95eb5f732c2",
+    "movie_id": "8be25d7b-568d-42d8-a64c-bad352773279",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": 8,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "111.1000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "eb32d3bf-91a2-4c06-8ff5-07af3b147ae9"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "269463b1-bf45-4f18-9474-a8689e2cb501",
+    "movie_id": "d4bd1805-4e18-4667-b6a3-b4121b02979d",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 10,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "12.0100",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "dac58550-6ab9-4958-a82f-21af5279bc86"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "368216ac-7822-427b-9734-64773334dc0b",
+    "movie_id": "8be25d7b-568d-42d8-a64c-bad352773279",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 6,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "106.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "30a0d370-4f3a-41a1-bef4-93eab3356b46"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "b887a84a-32d1-4a40-aea9-e8173d669dca",
+    "movie_id": "a81ab690-5d9c-4d80-a46c-4c1ad9f637c4",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 7,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "30.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "4bbd0fa9-57bf-42f6-a4f5-e04048a1bb1c"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "9612a2e8-d96f-4aa1-86c5-1f3bbe00a8ec",
+    "movie_id": "9e751789-bd3f-4923-a157-032e3747d80c",
+    "metric": "INDIA_GROSS",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "72.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "d90298bd-1ee7-4497-8c10-7a86168da821"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "d0347f00-9767-40b0-be85-c8cac2d4bfdc",
+    "movie_id": "c27c905e-72f5-4168-96c8-25c5bf1fe93f",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 1,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "10.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "f8f1bb11-6ee1-4fd1-81d8-4434edc5ce36"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "e1654de1-955d-4608-bbab-390f041fcc4a",
+    "movie_id": "379d886b-e42f-4477-9faf-9b9c0f1b3182",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 6,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "16.3000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "1f4f7110-f928-4816-b9bb-67b0e3d2cfe4"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "905e3047-4d29-40d4-b0fe-0f53c13a4d0b",
+    "movie_id": "1c396f87-f3cc-4f1c-97c4-c1f21d942af6",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": 21,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "266.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "a6dde425-ba1a-44e4-aa1a-f3af94cb153c"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "0be1fe71-3903-47e4-8cfe-4136785cc58d",
+    "movie_id": "4d1d82b7-0829-4108-9539-d4a9be26dd30",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "5.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "35f3e0c5-577f-41fd-bb2c-0711b757168b"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "2a6da0e6-ba6b-4435-8177-e281b6bf9e69",
+    "movie_id": "8af51ad7-cfaf-4904-a6c2-feb0045af15f",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 10,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "45.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "80c1d4a3-9ae1-40c8-8843-aa614bb2c739"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "32f59500-0565-45ac-a82d-39fe2175008f",
+    "movie_id": "1e892b1d-1687-49f5-b4fe-02c1fb80f4e5",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": 10,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "1200.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "0b674e5c-4796-4dde-b266-ae67160b8c86"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "fe335f1b-0d83-49f5-ae0b-8bb79a3db28c",
+    "movie_id": "8b9ab8d2-8f5a-4dc9-98dd-ae1a94634225",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "33.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "71cd3f86-5161-4318-86fd-5e02c5342f58"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "ae818ff6-9f74-40d8-8e86-e756aa7ddf05",
+    "movie_id": "65eff7d0-3e20-44c4-8c22-1b701a298a54",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 7,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "168.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "13f032e7-eca5-4dc3-98c5-e06bc57972d6"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "73d431be-a518-4f04-8e31-3640bb718f9b",
+    "movie_id": "33b8be08-a0c0-4a33-aafb-8f3fa5be01df",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "35.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "8e37eac5-d518-4398-b777-cdb1b755ccb2"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "d2d24048-9f7d-44d1-a03c-794f7a16d1d8",
+    "movie_id": "d469e0bd-0c3e-41d3-bc53-78b817fe0c98",
+    "metric": "INDIA_NET",
+    "period_type": "CUMULATIVE",
+    "day_number": 18,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "104.1400",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "ab59cff3-677e-4e92-8af0-89fbae2aa928"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "e7cc657e-ceb7-4783-b907-b56d6836ea7a",
+    "movie_id": "648cfe6c-4870-405d-b951-d91c9df7635f",
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "100.0000",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "5a6df301-f426-4d0f-b59d-e7ce64972afc"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
+    "id": "d20a3aa4-ffa1-41bc-8deb-a1a1709a0251",
+    "movie_id": "e510ca1e-17ee-448c-a6fb-ed863b93a214",
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 2,
+    "reporting_date": "2026-11-27",
+    "reconciled_amount_inr_crores": "1.5500",
+    "confidence_status": "ESTIMATE",
+    "has_conflict": false,
+    "conflict_details": null,
+    "supporting_report_ids": [
+      "737d14c4-ce5f-418c-88dd-8b84196d8b62"
+    ],
+    "methodology_note": "Selected Permitted Trade RSS (ESTIMATE) out of 1 source(s); compatible metric/period only, no averaging."
+  },
+  {
     "id": "0fd156d1-5cfc-4a0e-9d6c-c0d7db3cdd2f",
     "movie_id": "7baaaa37-e69a-49d3-9505-8fa1cee620b1",
     "metric": "WORLDWIDE_GROSS",
