@@ -10,6 +10,11 @@ on:
         description: 'Optional reporting date (YYYY-MM-DD, defaults to today UTC)'
         required: false
         default: ''
+      reset_data:
+        description: 'Clear old database & JSON before collecting fresh data'
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -33,6 +38,10 @@ jobs:
           git clone --branch data --single-branch "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" public_data || (
             cd public_data && git init -b data && git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
           )
+          if [ "${{ github.event.inputs.reset_data }}" = "true" ]; then
+            echo "Resetting old database and JSON snapshots..."
+            rm -f public_data/cinepulse.db public_data/*.json
+          fi
 
       - name: Set up Python 3.12
         uses: actions/setup-python@v5
