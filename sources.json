@@ -1,1 +1,29 @@
-﻿[]
+[
+  {
+    "id": "9e1052b2-c8fc-4752-bfae-4b89c912aa0a",
+    "code": "manual_official_import",
+    "name": "Official Producer / Manual Import",
+    "access_method": "MANUAL_IMPORT",
+    "health_status": "HEALTHY",
+    "last_success_at": "2026-11-27T17:25:32.533479+00:00",
+    "last_error": null
+  },
+  {
+    "id": "38a9cb30-ea2d-4b73-861f-26b29c9193a1",
+    "code": "licensed_boxoffice_api",
+    "name": "Licensed Box-Office Feed",
+    "access_method": "LICENSED_FEED",
+    "health_status": "UNAVAILABLE",
+    "last_success_at": null,
+    "last_error": "Source not configured or disabled."
+  },
+  {
+    "id": "243beb9d-f286-4c9e-9873-5234ecfe45a4",
+    "code": "permitted_trade_rss",
+    "name": "Google News & Permitted Trade RSS",
+    "access_method": "PERMITTED_RSS",
+    "health_status": "HEALTHY",
+    "last_success_at": "2026-11-27T17:25:32.533489+00:00",
+    "last_error": null
+  }
+]

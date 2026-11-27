@@ -1,1 +1,156 @@
-﻿[]
+[
+  {
+    "id": "ae142abb-13a9-443d-806b-c4a32aaf6f79",
+    "tmdb_id": null,
+    "title": "Yeh Prem Mol Liya",
+    "original_title": null,
+    "primary_language": "Hindi",
+    "languages": [
+      "Hindi"
+    ],
+    "release_date": "2026-11-27",
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "839eb6a9-d77d-4346-b001-6075dda26e57",
+    "tmdb_id": null,
+    "title": "Ramayana: Rise of a Legend",
+    "original_title": null,
+    "primary_language": "Hindi",
+    "languages": [
+      "Hindi"
+    ],
+    "release_date": "2026-11-19",
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "da10c6a0-cb5f-4d57-bab2-50fdc6840466",
+    "tmdb_id": null,
+    "title": "Disco",
+    "original_title": null,
+    "primary_language": "Malayalam",
+    "languages": [
+      "Malayalam"
+    ],
+    "release_date": "2026-11-06",
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "d48f12bf-64b2-4882-960f-29d38081d330",
+    "tmdb_id": null,
+    "title": "Klara and the Sun",
+    "original_title": null,
+    "primary_language": "English",
+    "languages": [
+      "English"
+    ],
+    "release_date": "2026-10-29",
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "e97e259d-c8a8-4550-abca-830183cfecb6",
+    "tmdb_id": null,
+    "title": "Udta Teer",
+    "original_title": null,
+    "primary_language": "Hindi",
+    "languages": [
+      "Hindi"
+    ],
+    "release_date": "2026-10-23",
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "9ad7ed81-d37e-47c3-b541-c5119d33cd86",
+    "tmdb_id": null,
+    "title": "Titanic",
+    "original_title": null,
+    "primary_language": "Tamil",
+    "languages": [
+      "Tamil"
+    ],
+    "release_date": "2026-10-23",
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "f76847d1-7150-4328-bb5e-0540bef43db3",
+    "tmdb_id": null,
+    "title": "Jailer 3",
+    "original_title": null,
+    "primary_language": "Tamil",
+    "languages": [
+      "Tamil"
+    ],
+    "release_date": "2026-10-15",
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "eb9bf448-ad7d-470d-b696-e5da9c5f3abb",
+    "tmdb_id": null,
+    "title": "Ramayana",
+    "original_title": null,
+    "primary_language": "English",
+    "languages": [
+      "English"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "70d04675-16f5-4ce1-9804-2d46c91b3f20",
+    "tmdb_id": null,
+    "title": "OM",
+    "original_title": null,
+    "primary_language": "Hindi",
+    "languages": [
+      "Hindi"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "ddf78ea2-e722-4200-bc45-5dfcdecdc42b",
+    "tmdb_id": null,
+    "title": "South Indian",
+    "original_title": null,
+    "primary_language": "Malayalam",
+    "languages": [
+      "Malayalam"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  },
+  {
+    "id": "22a40d50-b431-475e-8734-4ee187549f60",
+    "tmdb_id": null,
+    "title": "Telugu Cinema 2026",
+    "original_title": null,
+    "primary_language": "Telugu",
+    "languages": [
+      "Telugu"
+    ],
+    "release_date": null,
+    "poster_path": null,
+    "overview": null,
+    "is_monitored": true
+  }
+]

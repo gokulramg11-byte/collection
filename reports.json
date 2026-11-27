@@ -1,1 +1,122 @@
-﻿[]
+[
+  {
+    "id": "d33f530d-d94c-44ca-8743-72e451f9e081",
+    "movie_id": "22a40d50-b431-475e-8734-4ee187549f60",
+    "source_id": "243beb9d-f286-4c9e-9873-5234ecfe45a4",
+    "sources": {
+      "name": "Google News & Permitted Trade RSS"
+    },
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "amount_inr_crores": "2152.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1RTnlJWFlKeEY0bm1TM0p0cDc1UnE2OEhPV2JkTk5DaHlET1hmcnBiN1FSNjBKMXg4TzYxY0s5Wk0zTUdKN3V5ekF5YzMtTUpPR2lJOTVRb1JoT0RZUnRnSDhB?oc=5",
+    "original_report_ref": "Telugu Cinema 2026 Box Office Review: A \u20b92,152 Crore Market Without a Single \u20b9350 Crore Worldwide Grosser Yet Just 4% of Releases Account for 54% of Its Business - IMDb",
+    "published_at": "2026-11-27T13:18:10+00:00",
+    "retrieved_at": "2026-11-27T17:25:32.544803+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "35a3e408-9231-493d-b885-c7bcce89e117",
+    "movie_id": "70d04675-16f5-4ce1-9804-2d46c91b3f20",
+    "source_id": "243beb9d-f286-4c9e-9873-5234ecfe45a4",
+    "sources": {
+      "name": "Google News & Permitted Trade RSS"
+    },
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "CUMULATIVE",
+    "day_number": 7,
+    "reporting_date": "2026-11-27",
+    "amount_inr_crores": "111.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWGpYX0JnRGtYMmx1ckNQck5rSGktNWV5NXUtbEFTVUhxLTlnMHhhcVYzcXpaX1hkT0lJblUzazRZb3lwMmgxNzBuX21lT2phelp1Wmt3X1N2SzJUR0xfZWRlamlDa1hBREJyUHJLdVJzd25MT1ZWenJyR0VXS29KN3lpWmFqWll5dFRrbk5HXzhxVGxsT3RPQmlGelBOb3JjZlhXUmo3UDRjTUFBaFI1dHlCelp1dk1Pc3k3RWJlM2J5OTZWSXdVWmJYTl9JUVJqNXJfMDdlcHIySXZ6NERNZktXSQ?oc=5",
+    "original_report_ref": "OM Box Office Collection Day 7: Dhanush And Mammootty's Film Crosses \u20b9111 Crore Worldwide, Week 1 Report - Filmibeat",
+    "published_at": "2026-11-27T03:42:21+00:00",
+    "retrieved_at": "2026-11-27T17:25:32.543652+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "da6b6bab-4a7b-42a5-a7d5-e1ac874c0a28",
+    "movie_id": "ddf78ea2-e722-4200-bc45-5dfcdecdc42b",
+    "source_id": "243beb9d-f286-4c9e-9873-5234ecfe45a4",
+    "sources": {
+      "name": "Google News & Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": null,
+    "reporting_date": "2026-11-27",
+    "amount_inr_crores": "5308.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNS2tmNVYzX1N4ZUlKT2NfZno5aHNwb0h2M0JtMHVYQnJSMWlCN0stUWlkZlNGcUVKaWM4VG5hT2puSGpTT0pMcTJkWDFieHNkMHZWdHYyX0VUU3Bab0xjVEE1V1d1aExNV0NFTzlkUlBQZjhOeEg4RW93UDA4N09xeF9CcEJVdEZpWmx2dERFdXNlc2xPNmloMVRhMWExb05XOEgybDB1VG5YMUpJaFc4ZDk0SHF1QVowNGQ1NjFsRkpKQTAwU3BCOF9TRWRad2JhQTFLdG9QZEozdlMxeUlWQWpiMU4yWGpEM2RWTjZMN1pkT05FVVJkaDc1R25LM21kWXhyb3BQNjNXaVlPYjRmUVUzeWczekZtdmc?oc=5",
+    "original_report_ref": "South Indian Box Office 2026: Telugu Leads the \u20b95,308 Crore Net Market but Kollywood Generates Nearly 10 Times Tollywood's Cross-Language Business Within South India - Sacnilk",
+    "published_at": "2026-11-27T12:06:44+00:00",
+    "retrieved_at": "2026-11-27T17:25:32.537979+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "a78dde1f-155f-461f-932c-fadebd133e73",
+    "movie_id": "eb9bf448-ad7d-470d-b696-e5da9c5f3abb",
+    "source_id": "243beb9d-f286-4c9e-9873-5234ecfe45a4",
+    "sources": {
+      "name": "Google News & Permitted Trade RSS"
+    },
+    "metric": "WORLDWIDE_GROSS",
+    "period_type": "DAILY",
+    "day_number": 22,
+    "reporting_date": "2026-11-27",
+    "amount_inr_crores": "781.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5xVlpGU1lIdzZuRmVtQUtyN19GdVJYaHlsRUxoSjJrNXgyS1dnRDhLTURBeUVTLXpxcUhB?oc=5",
+    "original_report_ref": "Ramayana Box Office Day 22: After 3Rd Week, Ranbir Kapoor And Yash's Epic Stands At Rs 781 Crore Hindi, Rs 1019 Crore India Nett And Rs 1735 Crore Worldwide - Howl.Link",
+    "published_at": "2026-11-27T09:01:37+00:00",
+    "retrieved_at": "2026-11-27T17:25:32.540026+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "4d98b846-bd83-49da-8c5c-b5d0cdb90c82",
+    "movie_id": "eb9bf448-ad7d-470d-b696-e5da9c5f3abb",
+    "source_id": "243beb9d-f286-4c9e-9873-5234ecfe45a4",
+    "sources": {
+      "name": "Google News & Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 22,
+    "reporting_date": "2026-11-27",
+    "amount_inr_crores": "781.7600",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9FczJBOEp2QUt3Y3A1MDhWZDZrRm1NN1R1c1IzMjBOa0xfTkp5X3pfdDZ0c193Wm5COF9Z?oc=5",
+    "original_report_ref": "Ramayana Box Office Collection Day 22: \u20b9781.76 Crore; Week 3 Ends at \u20b989.68 Crore - CineInfinity - Howl.Link",
+    "published_at": "2026-11-27T09:47:39+00:00",
+    "retrieved_at": "2026-11-27T17:25:32.541079+00:00",
+    "revision_number": 1
+  },
+  {
+    "id": "13523189-6c18-42b7-891a-85a53ce13b5d",
+    "movie_id": "eb9bf448-ad7d-470d-b696-e5da9c5f3abb",
+    "source_id": "243beb9d-f286-4c9e-9873-5234ecfe45a4",
+    "sources": {
+      "name": "Google News & Permitted Trade RSS"
+    },
+    "metric": "INDIA_NET",
+    "period_type": "DAILY",
+    "day_number": 22,
+    "reporting_date": "2026-11-26",
+    "amount_inr_crores": "750.0000",
+    "currency": "INR",
+    "source_status": "ESTIMATE",
+    "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPR05INEM1bzZpVG1EcWVMcUNNVUJrQ1N3MHlLSW11R3ozTWY4aHJsV1ZBVkFCbnlYR2t6SC10ejNkczhzVk5fb0ZYcTE2U2g3T1M0aFlDODh3NFh2VnRGNFRILUgyZlZENzFCOUV2b19iVm02UVNRRWI1S2w4SFp5bWpGcE9GVllhN21fbFp2VmRXcTM3ZnEwM1BxRW5YU1dKZDBiaWI3UjNEUlNUWGJOam16ZkJzeF9xeGtnMW1IbGhkVjlGa3lRajdqekM?oc=5",
+    "original_report_ref": "Ramayana Day 22 Box Office Set to Become the Third Bollywood Film to Enter the \u20b9750 Crore Hindi Net Club - Sacnilk",
+    "published_at": "2026-11-26T04:03:02+00:00",
+    "retrieved_at": "2026-11-27T17:25:32.542498+00:00",
+    "revision_number": 1
+  }
+]

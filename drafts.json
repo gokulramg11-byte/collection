@@ -1,1 +1,197 @@
-﻿[]
+[
+  {
+    "id": "4aab72dc-2186-4e9c-9511-a857ae34131a",
+    "category": "TOP_5_WORLDWIDE",
+    "title": "Top 5 Worldwide (Daily Worldwide Gross) \u2014 27 Nov 2026 [Partial 2/5]",
+    "movie_id": null,
+    "reporting_date": "2026-11-27",
+    "generated_text": "Top 5 Worldwide (Daily Worldwide Gross) \u2014 27 Nov 2026 [Partial 2/5]\n\n1. Telugu Cinema 2026: \u20b92152.00 Cr (Est.)\n2. Ramayana: \u20b9781.00 Cr (Est.)\n\n#BoxOffice #IndianCinema",
+    "edited_text": null,
+    "hashtags": [
+      "#BoxOffice",
+      "#IndianCinema"
+    ],
+    "entries": [
+      {
+        "rank": 1,
+        "movie_id": "22a40d50-b431-475e-8734-4ee187549f60",
+        "title": "Telugu Cinema 2026",
+        "language": "Telugu",
+        "amount_inr_crores": "2152.0000",
+        "confidence_status": "ESTIMATE"
+      },
+      {
+        "rank": 2,
+        "movie_id": "eb9bf448-ad7d-470d-b696-e5da9c5f3abb",
+        "title": "Ramayana",
+        "language": "English",
+        "amount_inr_crores": "781.0000",
+        "confidence_status": "ESTIMATE"
+      }
+    ],
+    "main_figure_display": "#1 Telugu Cinema 2026: \u20b92152.00 Cr",
+    "source_summary": "Current-day WORLDWIDE_GROSS (DAILY) on 2026-11-27 for Worldwide (active releases <= 60d). Coverage: 2/5.",
+    "weighted_char_count": 167,
+    "is_valid_length": true,
+    "status": "PENDING_REVIEW",
+    "numerical_edit_confirmed": false,
+    "last_error": null,
+    "expires_at": "2026-11-29T17:25:32.564533+00:00",
+    "created_at": "2026-11-27T17:25:32.564668+00:00"
+  },
+  {
+    "id": "d1fd3ab1-0be5-42ee-b0a0-cb6b2b0c7b97",
+    "category": "TOP_5_INDIA",
+    "title": "Top 5 India (Daily India Net) \u2014 27 Nov 2026 [Partial 2/5]",
+    "movie_id": null,
+    "reporting_date": "2026-11-27",
+    "generated_text": "Top 5 India (Daily India Net) \u2014 27 Nov 2026 [Partial 2/5]\n\n1. South Indian: \u20b95308.00 Cr (Est.)\n2. Ramayana: \u20b9781.76 Cr (Est.)\n\n#BoxOffice #IndianCinema",
+    "edited_text": null,
+    "hashtags": [
+      "#BoxOffice",
+      "#IndianCinema"
+    ],
+    "entries": [
+      {
+        "rank": 1,
+        "movie_id": "ddf78ea2-e722-4200-bc45-5dfcdecdc42b",
+        "title": "South Indian",
+        "language": "Malayalam",
+        "amount_inr_crores": "5308.0000",
+        "confidence_status": "ESTIMATE"
+      },
+      {
+        "rank": 2,
+        "movie_id": "eb9bf448-ad7d-470d-b696-e5da9c5f3abb",
+        "title": "Ramayana",
+        "language": "English",
+        "amount_inr_crores": "781.7600",
+        "confidence_status": "ESTIMATE"
+      }
+    ],
+    "main_figure_display": "#1 South Indian: \u20b95308.00 Cr",
+    "source_summary": "Current-day INDIA_NET (DAILY) on 2026-11-27 for India (active releases <= 60d). Coverage: 2/5.",
+    "weighted_char_count": 151,
+    "is_valid_length": true,
+    "status": "PENDING_REVIEW",
+    "numerical_edit_confirmed": false,
+    "last_error": null,
+    "expires_at": "2026-11-29T17:25:32.563457+00:00",
+    "created_at": "2026-11-27T17:25:32.563617+00:00"
+  },
+  {
+    "id": "14a2dc49-ee59-4b29-a19f-905b4f3b8734",
+    "category": "MOVIE_WISE",
+    "title": "Telugu Cinema 2026 \u2014 27 Nov 2026",
+    "movie_id": "22a40d50-b431-475e-8734-4ee187549f60",
+    "reporting_date": "2026-11-27",
+    "generated_text": "Telugu Cinema 2026 (Telugu) \u2014 27 Nov 2026\n\u2022 Worldwide Gross (Day): \u20b92152.00 Cr [Estimate]\n\n#BoxOffice #TeluguCinema",
+    "edited_text": null,
+    "hashtags": [
+      "#BoxOffice",
+      "#TeluguCinema"
+    ],
+    "entries": [],
+    "main_figure_display": "\u20b92152.00 Cr \u2022 Worldwide Gross",
+    "source_summary": "1 source report(s) \u2022 Verified",
+    "weighted_char_count": 115,
+    "is_valid_length": true,
+    "status": "PENDING_REVIEW",
+    "numerical_edit_confirmed": false,
+    "last_error": null,
+    "expires_at": "2026-11-29T17:25:32.561666+00:00",
+    "created_at": "2026-11-27T17:25:32.561766+00:00"
+  },
+  {
+    "id": "92bdc75d-50db-41f4-a4b9-07b78ef41160",
+    "category": "MOVIE_WISE",
+    "title": "South Indian \u2014 27 Nov 2026",
+    "movie_id": "ddf78ea2-e722-4200-bc45-5dfcdecdc42b",
+    "reporting_date": "2026-11-27",
+    "generated_text": "South Indian (Malayalam) \u2014 27 Nov 2026\n\u2022 India Net (Day): \u20b95308.00 Cr [Estimate]\n\n#BoxOffice #MalayalamCinema",
+    "edited_text": null,
+    "hashtags": [
+      "#BoxOffice",
+      "#MalayalamCinema"
+    ],
+    "entries": [],
+    "main_figure_display": "\u20b95308.00 Cr \u2022 India Net",
+    "source_summary": "1 source report(s) \u2022 Verified",
+    "weighted_char_count": 109,
+    "is_valid_length": true,
+    "status": "PENDING_REVIEW",
+    "numerical_edit_confirmed": false,
+    "last_error": null,
+    "expires_at": "2026-11-29T17:25:32.561292+00:00",
+    "created_at": "2026-11-27T17:25:32.561400+00:00"
+  },
+  {
+    "id": "ebcfebbb-8cbd-4686-acc9-5862a23588c6",
+    "category": "MILESTONES",
+    "title": "OM crosses \u20b9100 Cr Worldwide Gross",
+    "movie_id": "70d04675-16f5-4ce1-9804-2d46c91b3f20",
+    "reporting_date": "2026-11-27",
+    "generated_text": "Milestone: OM crosses \u20b9100 Cr Worldwide Gross!\nCurrent Worldwide Gross: \u20b9111.00 Cr (Estimate)\n\n#BoxOffice #HindiCinema",
+    "edited_text": null,
+    "hashtags": [
+      "#BoxOffice",
+      "#HindiCinema"
+    ],
+    "entries": [],
+    "main_figure_display": "\u20b9111.00 Cr \u2022 Worldwide Gross",
+    "source_summary": "1 source report(s)",
+    "weighted_char_count": 118,
+    "is_valid_length": true,
+    "status": "PENDING_REVIEW",
+    "numerical_edit_confirmed": false,
+    "last_error": null,
+    "expires_at": "2026-11-29T17:25:32.560876+00:00",
+    "created_at": "2026-11-27T17:25:32.560992+00:00"
+  },
+  {
+    "id": "2284db3b-d48e-420c-b896-5fb69b2912de",
+    "category": "MOVIE_WISE",
+    "title": "OM \u2014 27 Nov 2026",
+    "movie_id": "70d04675-16f5-4ce1-9804-2d46c91b3f20",
+    "reporting_date": "2026-11-27",
+    "generated_text": "OM (Hindi) \u2014 27 Nov 2026\n\u2022 Worldwide Gross (Total): \u20b9111.00 Cr [Estimate]\n\n#BoxOffice #HindiCinema",
+    "edited_text": null,
+    "hashtags": [
+      "#BoxOffice",
+      "#HindiCinema"
+    ],
+    "entries": [],
+    "main_figure_display": "\u20b9111.00 Cr \u2022 Worldwide Gross",
+    "source_summary": "1 source report(s) \u2022 Verified",
+    "weighted_char_count": 98,
+    "is_valid_length": true,
+    "status": "PENDING_REVIEW",
+    "numerical_edit_confirmed": false,
+    "last_error": null,
+    "expires_at": "2026-11-29T17:25:32.560208+00:00",
+    "created_at": "2026-11-27T17:25:32.560384+00:00"
+  },
+  {
+    "id": "98467987-565d-4ee9-a5ec-671dbd0ff72a",
+    "category": "MOVIE_WISE",
+    "title": "Ramayana \u2014 27 Nov 2026",
+    "movie_id": "eb9bf448-ad7d-470d-b696-e5da9c5f3abb",
+    "reporting_date": "2026-11-27",
+    "generated_text": "Ramayana (English) \u2014 27 Nov 2026\n\u2022 India Net (Day 22): \u20b9781.76 Cr [Estimate]\n\u2022 Worldwide Gross (Day 22): \u20b9781.00 Cr [Estimate]\n\n#BoxOffice #EnglishCinema",
+    "edited_text": null,
+    "hashtags": [
+      "#BoxOffice",
+      "#EnglishCinema"
+    ],
+    "entries": [],
+    "main_figure_display": "\u20b9781.76 Cr \u2022 India Net",
+    "source_summary": "2 source report(s) \u2022 Verified",
+    "weighted_char_count": 153,
+    "is_valid_length": true,
+    "status": "PENDING_REVIEW",
+    "numerical_edit_confirmed": false,
+    "last_error": null,
+    "expires_at": "2026-11-29T17:25:32.558142+00:00",
+    "created_at": "2026-11-27T17:25:32.558975+00:00"
+  }
+]

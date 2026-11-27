@@ -1,1 +1,14 @@
-﻿[]
+[
+  {
+    "id": "157c3746-29f8-48b6-bfdf-36472806d898",
+    "trigger_type": "MANUAL",
+    "status": "PARTIAL_SUCCESS",
+    "started_at": "2026-11-27T17:25:32.524661+00:00",
+    "completed_at": "2026-11-27T17:25:32.569404+00:00",
+    "movies_discovered": 7,
+    "reports_collected": 6,
+    "conflicts_detected": 0,
+    "drafts_generated": 7,
+    "error_summary": null
+  }
+]
