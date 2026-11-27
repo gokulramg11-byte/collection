@@ -12,14 +12,21 @@ from pydantic import BaseModel, Field, field_validator
 class IndianLanguage(StrEnum):
     MALAYALAM = "Malayalam"
     TAMIL = "Tamil"
+    ENGLISH = "English"
+    HINDI = "Hindi"
     TELUGU = "Telugu"
     KANNADA = "Kannada"
-    HINDI = "Hindi"
-    BENGALI = "Bengali"
-    MARATHI = "Marathi"
-    PUNJABI = "Punjabi"
-    GUJARATI = "Gujarati"
     OTHER = "Other"
+
+
+TARGET_LANGUAGES: tuple[IndianLanguage, ...] = (
+    IndianLanguage.MALAYALAM,
+    IndianLanguage.TAMIL,
+    IndianLanguage.ENGLISH,
+    IndianLanguage.HINDI,
+    IndianLanguage.TELUGU,
+    IndianLanguage.KANNADA,
+)
 
 
 class CollectionMetric(StrEnum):
@@ -49,11 +56,10 @@ class DraftCategory(StrEnum):
     TOP_5_WORLDWIDE = "TOP_5_WORLDWIDE"
     MALAYALAM_TOP_5 = "MALAYALAM_TOP_5"
     TAMIL_TOP_5 = "TAMIL_TOP_5"
+    ENGLISH_TOP_5 = "ENGLISH_TOP_5"
     TELUGU_TOP_5 = "TELUGU_TOP_5"
     KANNADA_TOP_5 = "KANNADA_TOP_5"
     HINDI_TOP_5 = "HINDI_TOP_5"
-    BENGALI_TOP_5 = "BENGALI_TOP_5"
-    MARATHI_TOP_5 = "MARATHI_TOP_5"
     OPENING_DAY = "OPENING_DAY"
     MILESTONES = "MILESTONES"
     LATEST_UPDATES = "LATEST_UPDATES"

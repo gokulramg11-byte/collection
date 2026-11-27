@@ -4,12 +4,24 @@ from datetime import date, datetime, timedelta, timezone
 from decimal import Decimal
 import uuid
 
-from sqlalchemy import select
+from sqlalchemy import or_, select
 from sqlalchemy.orm import Session
 
 from app.models.entities import Movie, PostDraft, PostSource, ReconciledCollection
-from app.post_generation.rankings import LANGUAGE_TO_CATEGORY, Top5RankingResult, build_top_5_ranking
-from app.schemas.domain import CollectionMetric, DraftCategory, DraftStatus, ReportingPeriodType
+from app.post_generation.rankings import (
+    ACTIVE_THEATRICAL_WINDOW_DAYS,
+    LANGUAGE_TO_CATEGORY,
+    Top5RankingResult,
+    build_current_year_language_top_5,
+    build_top_5_ranking,
+)
+from app.schemas.domain import (
+    CollectionMetric,
+    DraftCategory,
+    DraftStatus,
+    ReportingPeriodType,
+    TARGET_LANGUAGES,
+)
 from app.validators.x_text_validator import validate_x_post
 
 MILESTONE_THRESHOLDS_CR = [
@@ -115,10 +127,18 @@ def generate_drafts_for_date(
     """Generate pending X post drafts from reconciled collections for reporting_date."""
     created_drafts: list[PostDraft] = []
 
+    allowed_langs = {lang.value for lang in TARGET_LANGUAGES}
+    cutoff_release = reporting_date - timedelta(days=ACTIVE_THEATRICAL_WINDOW_DAYS)
+
+    # Type 2: Current-Day (DAILY) updates strictly for active releases in the 6 languages
     reconciled_rows = session.execute(
         select(ReconciledCollection, Movie)
         .join(Movie, ReconciledCollection.movie_id == Movie.id)
-        .where(ReconciledCollection.reporting_date == reporting_date)
+        .where(
+            ReconciledCollection.reporting_date == reporting_date,
+            Movie.primary_language.in_(allowed_langs),
+            or_(Movie.release_date.is_(None), Movie.release_date >= cutoff_release),
+        )
     ).all()
 
     # Group reconciled metrics by movie_id so Movie Wise posts never mix metrics silently
@@ -208,15 +228,12 @@ def generate_drafts_for_date(
                     created_drafts.append(m_draft)
                     break
 
-    # Top 5 Rankings: India (Daily India Net), Worldwide (Daily Worldwide Gross), and Regional Languages
-    ranking_specs: list[tuple[DraftCategory, CollectionMetric, ReportingPeriodType, str | None]] = [
+    # Type 2 Top 5: Current-Day Daily Rankings (India Net & Worldwide Gross)
+    daily_specs: list[tuple[DraftCategory, CollectionMetric, ReportingPeriodType, str | None]] = [
         (DraftCategory.TOP_5_INDIA, CollectionMetric.INDIA_NET, ReportingPeriodType.DAILY, None),
         (DraftCategory.TOP_5_WORLDWIDE, CollectionMetric.WORLDWIDE_GROSS, ReportingPeriodType.DAILY, None),
     ]
-    for lang_name, lang_cat in LANGUAGE_TO_CATEGORY.items():
-        ranking_specs.append((lang_cat, CollectionMetric.INDIA_NET, ReportingPeriodType.DAILY, lang_name))
-
-    for cat, metric, period, lang_filter in ranking_specs:
+    for cat, metric, period, lang_filter in daily_specs:
         ranking = build_top_5_ranking(
             session,
             category=cat,
@@ -253,6 +270,58 @@ def generate_drafts_for_date(
             report_ids=all_r_ids,
             period_type=period.value,
             metric=metric.value,
+            entries=entries_json,
+            expiry_hours=expiry_hours,
+        )
+        created_drafts.append(r_draft)
+
+    # Type 1 Top 5: Language-Wise Current-Year Top 5 (CUMULATIVE per industry)
+    for lang_name, lang_cat in LANGUAGE_TO_CATEGORY.items():
+        ranking = build_current_year_language_top_5(
+            session,
+            category=lang_cat,
+            language_filter=lang_name,
+            reference_date=reporting_date,
+            metric=CollectionMetric.WORLDWIDE_GROSS,
+            current_year_only=True,
+        )
+        if ranking is None:
+            ranking = build_current_year_language_top_5(
+                session,
+                category=lang_cat,
+                language_filter=lang_name,
+                reference_date=reporting_date,
+                metric=CollectionMetric.INDIA_NET,
+                current_year_only=True,
+            )
+        if ranking is None:
+            continue
+        r_text, r_tags, r_title = _format_ranking_draft(ranking)
+        all_r_ids = [rid for e in ranking.entries for rid in e.supporting_report_ids]
+        entries_json = [
+            {
+                "rank": e.rank,
+                "movie_id": e.movie_id,
+                "title": e.title,
+                "language": e.language,
+                "amount_inr_crores": str(e.amount_inr_crores),
+                "confidence_status": e.confidence_status,
+            }
+            for e in ranking.entries
+        ]
+        lead = ranking.entries[0]
+        r_draft = _persist_draft(
+            session,
+            category=lang_cat,
+            title=r_title,
+            reporting_date=reporting_date,
+            text=r_text,
+            hashtags=r_tags,
+            main_figure_display=f"#1 {lead.title}: {_format_crores(lead.amount_inr_crores)}",
+            source_summary=ranking.methodology_note,
+            report_ids=all_r_ids,
+            period_type=ranking.period_type.value,
+            metric=ranking.metric.value,
             entries=entries_json,
             expiry_hours=expiry_hours,
         )

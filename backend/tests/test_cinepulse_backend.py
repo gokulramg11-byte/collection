@@ -446,14 +446,27 @@ async def test_licensed_and_rss_adapters_with_mock_transport():
     <item>
         <title>Drishyam 3 - India Net Daily: ₹9.50 Cr</title>
         <link>https://rss.example.com/item1</link>
+        <pubDate>Thu, 26 Nov 2026 08:00:00 GMT</pubDate>
     </item>
     <item>
         <title>Pushpa 2 Box Office Collection Day 5: Allu Arjun film mints ₹45.20 Cr in India - Hindustan Times</title>
         <link>https://news.google.com/rss/articles/item2</link>
+        <pubDate>Thu, 26 Nov 2026 07:30:00 GMT</pubDate>
     </item>
     <item>
         <title>ARM Worldwide Box Office: Crosses Rs 92.40 Crore total - Koimoi</title>
         <link>https://www.koimoi.com/box-office/arm</link>
+        <pubDate>Thu, 26 Nov 2026 06:00:00 GMT</pubDate>
+    </item>
+    <item>
+        <title>Old Film Box Office Collection Day 1: Mints ₹15.00 Cr in February - Archive</title>
+        <link>https://news.google.com/rss/articles/old</link>
+        <pubDate>Wed, 18 Feb 2026 06:00:00 GMT</pubDate>
+    </item>
+    <item>
+        <title>Throwback 5 years ago: Classic Box Office Collection ₹50.00 Cr</title>
+        <link>https://news.google.com/rss/articles/throwback</link>
+        <pubDate>Thu, 26 Nov 2026 06:00:00 GMT</pubDate>
     </item>
     </channel></rss>"""
     rss_transport = httpx.MockTransport(lambda req: httpx.Response(200, text=rss_xml))

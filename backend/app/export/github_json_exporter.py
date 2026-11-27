@@ -1,14 +1,20 @@
 """Sanitized JSON exporter for serverless GitHub `data` branch storage.
 
-SECURITY: Exports ONLY public-safe box-office analytics and pending drafts.
-Never exports credentials, API keys, user emails, or OAuth tokens.
+Enforces strict separation so old (e.g. February) daily records never mix
+with current-day collections:
+- `DAILY` reports/reconciled: exported only for active releases (<= 60 days)
+  and recent reporting dates (<= 30 days).
+- `CUMULATIVE` reports/reconciled: exported only for current-year films
+  (for Language-Wise Current-Year Top 5).
+- `movies.json`: strictly the 6 target languages (Malayalam, Tamil, English,
+  Hindi, Telugu, Kannada).
 """
 
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 import json
 from pathlib import Path
 
-from sqlalchemy import select
+from sqlalchemy import or_, select
 from sqlalchemy.orm import Session
 
 from app.models.entities import (
@@ -19,7 +25,7 @@ from app.models.entities import (
     ReconciledCollection,
     Source,
 )
-from app.schemas.domain import DraftStatus
+from app.schemas.domain import DraftStatus, ReportingPeriodType, TARGET_LANGUAGES
 
 
 def _iso(dt: datetime | None) -> str | None:
@@ -30,19 +36,68 @@ def _iso(dt: datetime | None) -> str | None:
     return dt.astimezone(timezone.utc).isoformat()
 
 
-def export_github_json(session: Session, output_dir: str | Path) -> dict[str, int]:
-    """Export sanitized JSON snapshots to `output_dir` for the Flutter app."""
+def export_github_json(
+    session: Session,
+    output_dir: str | Path,
+    reference_date: date | None = None,
+) -> dict[str, int]:
+    """Export sanitized, date-separated JSON snapshots to `output_dir`."""
     out = Path(output_dir)
     out.mkdir(parents=True, exist_ok=True)
 
-    movies = session.scalars(select(Movie).order_by(Movie.release_date.desc())).all()
+    today = reference_date or datetime.now(timezone.utc).date()
+    year_start = date(today.year, 1, 1)
+    daily_report_cutoff = today - timedelta(days=30)
+    active_release_cutoff = today - timedelta(days=60)
+    draft_cutoff = today - timedelta(days=2)
+    allowed_langs = {lang.value for lang in TARGET_LANGUAGES}
+
+    movies = session.scalars(
+        select(Movie)
+        .where(
+            Movie.primary_language.in_(allowed_langs),
+            or_(Movie.release_date.is_(None), Movie.release_date >= year_start),
+        )
+        .order_by(Movie.release_date.desc())
+    ).all()
+    movie_by_id = {m.id: m for m in movies}
+    movie_ids = set(movie_by_id.keys())
+
     sources = session.scalars(select(Source).order_by(Source.priority)).all()
-    reports = session.scalars(
-        select(CollectionReport).order_by(CollectionReport.reporting_date.desc())
-    ).all()
-    reconciled = session.scalars(
-        select(ReconciledCollection).order_by(ReconciledCollection.reporting_date.desc())
-    ).all()
+    sources_by_id = {s.id: s for s in sources}
+
+    all_reports = session.scalars(
+        select(CollectionReport)
+        .where(CollectionReport.movie_id.in_(movie_ids))
+        .order_by(CollectionReport.reporting_date.desc())
+    ).all() if movie_ids else []
+
+    reports = []
+    for r in all_reports:
+        m = movie_by_id.get(r.movie_id)
+        if r.period_type == ReportingPeriodType.DAILY.value:
+            if r.reporting_date < daily_report_cutoff:
+                continue
+            if m and m.release_date and m.release_date < active_release_cutoff:
+                continue
+        reports.append(r)
+
+    all_reconciled = session.scalars(
+        select(ReconciledCollection)
+        .where(ReconciledCollection.movie_id.in_(movie_ids))
+        .order_by(ReconciledCollection.reporting_date.desc())
+    ).all() if movie_ids else []
+
+    reconciled = []
+    for rc in all_reconciled:
+        m = movie_by_id.get(rc.movie_id)
+        if rc.period_type == ReportingPeriodType.DAILY.value:
+            if rc.reporting_date < daily_report_cutoff:
+                continue
+            if m and m.release_date and m.release_date < active_release_cutoff:
+                continue
+        reconciled.append(rc)
+
     drafts = session.scalars(
         select(PostDraft)
         .where(
@@ -52,15 +107,15 @@ def export_github_json(session: Session, output_dir: str | Path) -> dict[str, in
                     DraftStatus.EDITED.value,
                     DraftStatus.FAILED.value,
                 ]
-            )
+            ),
+            PostDraft.reporting_date >= draft_cutoff,
         )
         .order_by(PostDraft.created_at.desc())
     ).all()
+
     runs = session.scalars(
         select(CollectionRun).order_by(CollectionRun.started_at.desc()).limit(20)
     ).all()
-
-    sources_by_id = {s.id: s for s in sources}
 
     (out / "movies.json").write_text(
         json.dumps(
@@ -215,6 +270,7 @@ def export_github_json(session: Session, output_dir: str | Path) -> dict[str, in
         json.dumps(
             {
                 "exported_at": datetime.now(timezone.utc).isoformat(),
+                "reference_date": today.isoformat(),
                 "movies_count": len(movies),
                 "drafts_count": len(drafts),
                 "reports_count": len(reports),

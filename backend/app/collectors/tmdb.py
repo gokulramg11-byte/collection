@@ -14,13 +14,10 @@ TMDB_IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500"
 TMDB_LANGUAGE_MAP: dict[str, IndianLanguage] = {
     "ml": IndianLanguage.MALAYALAM,
     "ta": IndianLanguage.TAMIL,
+    "en": IndianLanguage.ENGLISH,
+    "hi": IndianLanguage.HINDI,
     "te": IndianLanguage.TELUGU,
     "kn": IndianLanguage.KANNADA,
-    "hi": IndianLanguage.HINDI,
-    "bn": IndianLanguage.BENGALI,
-    "mr": IndianLanguage.MARATHI,
-    "pa": IndianLanguage.PUNJABI,
-    "gu": IndianLanguage.GUJARATI,
 }
 
 
@@ -85,7 +82,9 @@ class TmdbClient:
         movies: list[MovieMetadataInput] = []
         for item in payload.get("results", []):
             lang_code = (item.get("original_language") or "").lower()
-            language = TMDB_LANGUAGE_MAP.get(lang_code, IndianLanguage.OTHER)
+            if lang_code not in TMDB_LANGUAGE_MAP:
+                continue
+            language = TMDB_LANGUAGE_MAP[lang_code]
             rel_str = item.get("release_date") or None
             rel_date = date.fromisoformat(rel_str) if rel_str else None
             poster = item.get("poster_path")

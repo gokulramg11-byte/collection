@@ -23,6 +23,7 @@ from app.export.github_json_exporter import export_github_json
 from app.models.entities import Base, CollectionRun, Source
 from app.post_generation.generator import generate_drafts_for_date
 from app.reconciliation.engine import ingest_report, reconcile_bucket
+from app.services.cleanup_old_data import cleanup_stale_state
 from app.services.draft_expiry import expire_stale_drafts
 from app.services.movie_matcher import upsert_movie_from_metadata
 from app.validators.collection_validator import ValidationError
@@ -164,6 +165,7 @@ async def run_daily_pipeline(
             if rec is not None and rec.has_conflict:
                 conflicts += 1
 
+        cleanup_stale_state(session, reference_date=run_date)
         drafts = generate_drafts_for_date(session, run_date, expiry_hours=cfg.draft_expiry_hours)
         expired = expire_stale_drafts(session)
 
@@ -179,7 +181,7 @@ async def run_daily_pipeline(
 
         export_counts = None
         if export_dir:
-            export_counts = export_github_json(session, export_dir)
+            export_counts = export_github_json(session, export_dir, reference_date=run_date)
 
         return {
             "run_id": str(run.id),

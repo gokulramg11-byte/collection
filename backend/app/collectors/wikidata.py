@@ -11,17 +11,15 @@ from app.schemas.domain import IndianLanguage, MovieMetadataInput
 
 WIKIDATA_SPARQL_URL = "https://query.wikidata.org/sparql"
 
-# Wikidata QIDs for major Indian languages
+# Wikidata QIDs strictly for the 6 supported languages:
+# Malayalam, Tamil, English, Hindi, Telugu, Kannada
 WIKIDATA_LANGUAGE_QIDS: dict[str, IndianLanguage] = {
     "Q36236": IndianLanguage.MALAYALAM,
     "Q5885": IndianLanguage.TAMIL,
+    "Q1860": IndianLanguage.ENGLISH,
+    "Q1568": IndianLanguage.HINDI,
     "Q8097": IndianLanguage.TELUGU,
     "Q33673": IndianLanguage.KANNADA,
-    "Q1568": IndianLanguage.HINDI,
-    "Q9610": IndianLanguage.BENGALI,
-    "Q1571": IndianLanguage.MARATHI,
-    "Q58635": IndianLanguage.PUNJABI,
-    "Q5137": IndianLanguage.GUJARATI,
 }
 
 
