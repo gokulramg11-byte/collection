@@ -5,7 +5,7 @@
     "name": "Official Producer / Manual Import",
     "access_method": "MANUAL_IMPORT",
     "health_status": "HEALTHY",
-    "last_success_at": "2026-11-27T17:25:32.533479+00:00",
+    "last_success_at": "2026-11-28T11:19:57.058862+00:00",
     "last_error": null
   },
   {
@@ -23,7 +23,7 @@
     "name": "Google News & Permitted Trade RSS",
     "access_method": "PERMITTED_RSS",
     "health_status": "HEALTHY",
-    "last_success_at": "2026-11-27T17:25:32.533489+00:00",
+    "last_success_at": "2026-11-28T11:19:57.058880+00:00",
     "last_error": null
   }
 ]
